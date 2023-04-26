@@ -1,3 +1,7 @@
+<?php
+$conn = new mysqli("localhost","root","","youthclub");
+$result = mysqli_query($conn,"select * from members");
+?>
 <!DOCTYPE html>
 <html lang="zxx">
 
@@ -54,10 +58,39 @@
         
       </nav>
     </div>
+    <input type="text" placeholder="search" style="background-color: aquamarine;" name="name" id="myInput" onkeyup="searchFun()">
+    <script>
+      
+            const searchFun = () => {
+                let filter = document.getElementById('myInput').value.toUpperCase();
+                
+                let myTable = document.getElementById('myTable');
+                
+                let tr = myTable.getElementsByTagName('tr');
+
+                for(var i=0;i<tr.length;i++){
+                    let td = tr[i].getElementsByTagName('td')[1];
+                    let t1 = tr[i].getElementsByTagName('td')[0];
+             
+                    if(td || t1){
+                        let textvlaue = td.textContent || td.innerHTML;
+                        let pid = t1.textContent || t1.innerHTML;
+                        if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1){
+                            tr[i].style.display = "";
+                        }
+                        else{
+                            tr[i].style.display = "none";
+                        }
+                    }
+                }
+
+            }
+        
+    </script>
     <!-- menu end -->
     </div>
     <!-- menu button -->
-    <div class="knsl-menu-btn"><span></span></div>
+    <div class="knsl-menu-btn ml-10"><span></span></div>
     <!-- menu button end -->
   </div>
 </div>
@@ -90,7 +123,7 @@
     <div class="row">
       <div class="col-md-12">
         <div class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm">
-          <table class="table manage-candidates-top mb-0">
+          <table id="myTable" class="table manage-candidates-top mb-0">
             <thead>
               <tr>
                 <th>Member Name</th>
@@ -98,20 +131,26 @@
                 <th class="action text-right">Mobile Number</th>
               </tr>
             </thead>
+            <img src="" alt="">
+
             <tbody>
-              <tr class="candidates-list">
+            <?php
+                if(mysqli_num_rows($result) > 0){
+                  while($row = mysqli_fetch_assoc($result)){
+                    echo '
+                      <tr class="candidates-list">
                 <td class="title">
                   <div class="thumb">
-                    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="">
+                    <img class="img-fluid" src="img/1.jpg" alt="">
                   </div>
                   <div class="candidate-list-details">
                     <div class="candidate-list-info">
                       <div class="candidate-list-title">
-                        <h5 class="mb-0"><a href="#">Brooke Kelly</a></h5>
+                        <h5 class="mb-0"><a href="#">'.$row['name'].'</a></h5>
                       </div>
                       <div class="candidate-list-option">
                         <ul class="list-unstyled">
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>Bhimavaram,534204</li>
+                          <li><i class="fas fa-map-marker-alt pr-1"></i>'.$row['addrs'].'</li>
                         </ul>
                       </div>
                     </div>
@@ -119,14 +158,19 @@
                 </td>
                 <td class="candidate-list-favourite-time text-center">
                   <a class="candidate-list-favourite order-2 text-danger" href="#"></a>
-                  <span class="candidate-list-time order-1">123</span>
+                  <span class="candidate-list-time order-1">'.$row['id'].'</span>
                 </td>
                 <td>
                   <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                    9640336946
+                  '.$row['phno'].'
                   </ul>
                 </td>
               </tr>
+                    ';
+                  }
+                }
+              ?>
+              
               <tr class="candidates-list">
                 <td class="title">
                   <div class="thumb">

@@ -122,9 +122,13 @@ $result = mysqli_query($conn,"select * from members");
                         <h5 class="mb-0"><a href="#">'.$row['name'].'</a></h5>
                       </div>
                       <div class="candidate-list-option">
+
+
                         <ul class="list-unstyled">
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>'.$row['addrs'].'</li>
+                        <li><i class="fas pr-1"></i>S/o.Information Technology <br> <i class="fas fa-map-marker-alt pr-1"></i>'.$row['addrs'].'</li>
+                        
                         </ul>
+
                       </div>
                     </div>
                   </div>

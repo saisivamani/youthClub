@@ -169,7 +169,6 @@
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
               <h2 class="knsl-mb-20">Our luxurious menu</h2>
               <p class="knsl-mb-30">We Offer Many Special Food Items For You Eat And Enjoy In Youth Club</p>
-              <a href="menu.php" class="knsl-btn knsl-btn-md">Full menu</a>
             </div>
 
           </div>
@@ -188,44 +187,7 @@
                     </div>
                     <div class="knsl-description-frame">
                       <h3 class="knsl-mb-20">Mutton Potlam Biryani</h3>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Libero, non, aut, dignissimos, optio hic.</div>
                       <div class="knsl-card-bottom">
-                        <div class="knsl-price">c</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- menu card end -->
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- menu card -->
-                  <div class="knsl-menu-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <img src="img/47.jpg" alt="about">
-                    </div>
-                    <div class="knsl-description-frame">
-                      <h3 class="knsl-mb-20">Prawns Potlam Biryani</h3>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Libero, non, aut, dignissimos, optio hic.</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹349/-</div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- menu card end -->
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- menu card -->
-                  <div class="knsl-menu-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <img src="img/47.jpg" alt="about">
-                      <div class="knsl-badge">Popular</div>
-                    </div>
-                    <div class="knsl-description-frame">
-                      <h3 class="knsl-mb-20">Mixed Potlam Biryani</h3>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Libero, non, aut, dignissimos, optio hic.</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹349/-</div>
                       </div>
                     </div>
                   </div>
@@ -240,9 +202,7 @@
                     </div>
                     <div class="knsl-description-frame">
                       <h3 class="knsl-mb-20">Chicken Lollipop</h3>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Libero, non, aut, dignissimos, optio hic.</div>
                       <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹269/-</div>
                       </div>
                     </div>
                   </div>
@@ -257,9 +217,7 @@
                     </div>
                     <div class="knsl-description-frame">
                       <h3 class="knsl-mb-20">Chilli Chicken</h3>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Libero, non, aut, dignissimos, optio hic.</div>
                       <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹269/-</div>
                       </div>
                     </div>
                   </div>
@@ -274,9 +232,7 @@
                     </div>
                     <div class="knsl-description-frame">
                       <h3 class="knsl-mb-20">Stuffed Crab [4 Pieces]</h3>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Libero, non, aut, dignissimos, optio hic.</div>
                       <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹399/-</div>
                       </div>
                     </div>
                   </div>

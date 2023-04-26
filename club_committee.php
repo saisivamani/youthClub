@@ -145,11 +145,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/1.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">G.Venkata Narasimha Raju</h3>
+              <div>Honourable President</div>
             </div>
           </div>
         </div>
@@ -157,10 +157,10 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/45.jpg" alt="face">
+              <img src="img/gbody/2.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Harsha</h3>
+              <h3 class="knsl-mb-10">P.V.L.Narasimha Raju</h3>
               <div>President</div>
             </div>
           </div>
@@ -170,11 +170,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/43.jpg" alt="face">
+              <img src="img/gbody/3.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Mani</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">M.V.N.Sita Rama Raju</h3>
+              <div>Vice President</div>
             </div>
           </div>
         </div>
@@ -183,11 +183,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/4.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">P.V.Venkata Srinivasa Raju</h3>
+              <div>Vice President</div>
             </div>
           </div>
         </div>
@@ -196,11 +196,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/5-1.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">K.Venkata Satyanarayana Raju</h3>
+              <div>Secretary</div>
             </div>
           </div>
         </div>
@@ -209,11 +209,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/5-2.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">M.Suryanarayana Raju</h3>
+              <div>Future Secretary</div>
             </div>
           </div>
         </div>
@@ -223,26 +223,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/6.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="col-12 col-md-4">
-
-          <div class="knsl-team-card">
-            <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
-            </div>
-            <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">V.Rama Krishnam Raju</h3>
+              <div>Joint Secretary</div>
             </div>
           </div>
         </div>
@@ -253,11 +238,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/7.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">K.Satyanarayana Raju</h3>
+              <div>Treasurer</div>
             </div>
           </div>
         </div>
@@ -268,11 +253,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/8.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">B.Ranga Raju</h3>
+              <div>Member</div>
             </div>
           </div>
         </div>
@@ -283,11 +268,11 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/9.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">K.Srinivasa Raju</h3>
+              <div>Member</div>
             </div>
           </div>
         </div>
@@ -298,11 +283,73 @@
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
-              <img src="img/44.jpg" alt="face">
+              <img src="img/gbody/10.jpg" alt="face">
             </div>
             <div class="knsl-team-member-descr">
-              <h3 class="knsl-mb-10">Rohit</h3>
-              <div>President</div>
+              <h3 class="knsl-mb-10">S.B.Suryanarayana Raju</h3>
+              <div>Member</div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="col-12 col-md-4">
+
+          <div class="knsl-team-card">
+            <div class="knsl-photo-frame">
+              <img src="img/gbody/11.jpg" alt="face">
+            </div>
+            <div class="knsl-team-member-descr">
+              <h3 class="knsl-mb-10">C.Phanindra Varma</h3>
+              <div>Member</div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-12 col-md-4">
+
+          <div class="knsl-team-card">
+            <div class="knsl-photo-frame">
+              <img src="img/gbody/12.jpg" alt="face">
+            </div>
+            <div class="knsl-team-member-descr">
+              <h3 class="knsl-mb-10">G.Padma Raju</h3>
+              <div>Member</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col-12 col-md-4">
+
+          <div class="knsl-team-card">
+            <div class="knsl-photo-frame">
+              <img src="img/gbody/13.jpg" alt="face">
+            </div>
+            <div class="knsl-team-member-descr">
+              <h3 class="knsl-mb-10">P.Venkatapathi Raju</h3>
+              <div>Member</div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="col-12 col-md-4">
+
+          <div class="knsl-team-card">
+            <div class="knsl-photo-frame">
+              <img src="img/gbody/14.jpg" alt="face">
+            </div>
+            <div class="knsl-team-member-descr">
+              <h3 class="knsl-mb-10">A.Venkata Naga Raju</h3>
+              <div>Member</div>
             </div>
           </div>
         </div>

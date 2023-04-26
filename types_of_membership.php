@@ -77,10 +77,6 @@
           </li>
           <li class="menu-item-has-children current-item">
             <a href="types_of_membership.php">Membership</a>
-            <ul>
-              <li><a href="types_of_membership.php">Types Of Membership</a></li>
-              <li><a href="rules_&_regulations.php">Rules & Regulations</a></li>
-            </ul>
           </li>
           <li>
             <a href="about.php">About</a>
@@ -142,17 +138,13 @@
         <!-- <div class="row g-0"> -->
           <!-- <div class="col-lg-6"> -->
             <div class="knsl-about-text">
-              <div class="knsl-title-frame">
-                <li>A well-equipped Health Club is a must for a Club of this caliber. Our facility does not fall short in this area by any standard. We have treadmills, cycling machines, rowing machines and all the gismos to get even that little muscle tucked away in shape. The weight room has enough and more for the body builder and the light weight trainers. Proper changing rooms and shower rooms are available.</li>
-                <b>The Gymnasium will function as per timings given below</b>
-                <li>06.00 AM to 11.00 AM</li>
-                <li>15.00 PM to 21.00 PM</li>
-                <li>Monthly Charges for the Members is Rs 300/- per month. Personal trainer charges Rs. 2000/- per month.</li>
-                <li>Members desirous of using the Gym/Health Club shall enroll by signing the register on monthly/daily basis</li>
-                <li>Guests are strictly not permitted</li>
-                <li>Children below the age of 16 years are not permitted to use the Gym/Health Club</li>
-                <li>Ladies and Gentlemen are required to wear sports apparel and sports shoes while using the Gym. Members improperly attired  will not be permitted to use the Gym facilities.</li>
-                <li>Steam bath facility is available in the Health Club during the Gym timings</li>
+              <div class="knsl-title-">
+              
+              <li><b>Donor Member</b> :  All those members who have signed on the Memorandum of Association shall be the founder members of the Club.</li>
+              <li><b> Life Member</b> : The membership in this category remains duringthe life time of themember.</li>
+              <li><b>Honorary Membership</b> : The Executive Body may induct any person as Chief Patron. However he will remain as honorary member of the club. His membership is restricted only to those with distinction and whose services are considered necessary to promote the interest of the club.</li>
+              <li><b>Temporary Membership</b> : Any person may be enrolled as temporary member of the Club for a period not exceeding 3 months in any year.</li>
+               
             </div>
             </div>
           <!-- </div> -->

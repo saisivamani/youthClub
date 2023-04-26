@@ -150,7 +150,7 @@
                <tr>
                  <td><b>Club Secretary</b></td>
                  <td><b>:</b></td>
-                 <td><b>Name</b></td>
+                 <td><b>K.Venkata Satyanarayana Raju</b></td>
                </tr>
                <tr>
                <td><b>Contact</b></td>
@@ -178,7 +178,7 @@
                 <tr>
                   <td><b>Tel</b></td>
                   <td><b>:</b></td>
-                  <td><b>+91-9133311326</b></td>
+                  <td><b>+91-7207080232</b></td>
                 </tr>
                 <tr>
                   <td><b>Email</b></td>

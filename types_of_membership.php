@@ -54,10 +54,6 @@
           </li>
           <li class="menu-item-has-children" >
             <a href="club_committee.php">The Club</a>
-            <ul>
-              <li><a href="club_committee.php">Club Committee</a></li>
-              <li><a href="club_secretariat.php">Club Secretariat</a></li>
-            </ul>
           <li class="menu-item-has-children" >
             <a href="tennis.php">Sports</a>
             <ul>

@@ -78,10 +78,6 @@
           </li>
           <li class="menu-item-has-children">
             <a href="types_of_membership.php">Membership</a>
-            <ul>
-              <li><a href="types_of_membership.php">Types Of Membership</a></li>
-              <li><a href="rules_&_regulations.php">Rules & Regulations</a></li>
-            </ul>
           </li>
           <li>
             <a href="about.php">About</a>

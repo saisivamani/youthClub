@@ -22,7 +22,7 @@ $result = mysqli_query($conn,"select * from members");
   <link rel="stylesheet" href="css/plugins/nice-select.css">
   <!-- datepicker css -->
   <link rel="stylesheet" href="css/plugins/datepicker.css">
-  <!-- mapbox css -->
+  <!-- mapbox css --> 
   <link rel="stylesheet" href="css/plugins/mapbox-style.css">
   <!-- kinsley css -->
   <link rel="stylesheet" href="css/style.css">
@@ -59,36 +59,7 @@ $result = mysqli_query($conn,"select * from members");
       </nav>
     </div>
     <input type="text" placeholder="search" style="background-color: aquamarine;" name="name" id="myInput" onkeyup="searchFun()">
-    <script>
-      
-            const searchFun = () => {
-                let filter = document.getElementById('myInput').value.toUpperCase();
-                
-                let myTable = document.getElementById('myTable');
-                
-                let tr = myTable.getElementsByTagName('tr');
-
-                for(var i=0;i<tr.length;i++){
-                    let td = tr[i].getElementsByTagName('td')[1];
-                    let t1 = tr[i].getElementsByTagName('td')[0];
-                    let t2 = tr[i].getElementsByTagName('td')[2];
-             
-                    if(td || t1 || t2){
-                        let textvlaue = td.textContent || td.innerHTML;
-                        let pid = t1.textContent || t1.innerHTML;
-                        let mob = t2.textContent || t2.innerHTML;
-                        if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1 || mob.toUpperCase().indexOf(filter)>-1){
-                            tr[i].style.display = "";
-                        }
-                        else{
-                            tr[i].style.display = "none";
-                        }
-                    }
-                }
-
-            }
-        
-    </script>
+   
     <!-- menu end -->
     </div>
     <!-- menu button -->
@@ -122,10 +93,10 @@ $result = mysqli_query($conn,"select * from members");
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
 <div class="container-fluid mt-5 mb-4">
 <div class="container-fluid col-lg-9 mt-4 mt-lg-0">
-    <div class="row">
+    <div class="row" style="background-color: rgb(211, 211, 211);">
       <div class="col-md-12">
         <div class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm">
-          <table id="myTable" class="table manage-candidates-top mb-0">
+          <table id="myTable" class="table manage-candidates-top mb-0" >
             <thead>
               <tr>
                 <th>Member Name</th>
@@ -186,6 +157,36 @@ $result = mysqli_query($conn,"select * from members");
    <!-- Footer Start -->
  <?php include 'footer.php' ?>
     <!-- Footer End -->
+
+<script>
+      
+const searchFun = () => {
+let filter = document.getElementById('myInput').value.toUpperCase();
+          
+  let myTable = document.getElementById('myTable');
+  
+  let tr = myTable.getElementsByTagName('tr');
+
+  for(var i=0;i<tr.length;i++){
+      let td = tr[i].getElementsByTagName('td')[1];
+      let t1 = tr[i].getElementsByTagName('td')[0];
+      let t2 = tr[i].getElementsByTagName('td')[2];
+       
+    if(td || t1 || t2){
+    let textvlaue = td.textContent || td.innerHTML;
+    let pid = t1.textContent || t1.innerHTML;
+    let mob = t2.textContent || t2.innerHTML;
+    if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1 || mob.toUpperCase().indexOf(filter)>-1){
+        tr[i].style.display = "";
+    }
+    else{
+        tr[i].style.display = "none";
+    }
+        }
+    }
+
+        }
+</script>
 
   <!-- jquery js -->
   <script src="js/plugins/jquery.min.js"></script>

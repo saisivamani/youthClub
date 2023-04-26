@@ -95,8 +95,8 @@
     </div>
     <!-- menu end -->
       <!-- action button -->
-      <a id="book-popup" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
-      <!-- action button end -->
+      <a href="https://wa.me/+917207080232?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
+        <!-- action button end -->
     </div>
     <!-- menu button -->
     <div class="knsl-menu-btn"><span></span></div>

@@ -97,7 +97,7 @@
     </div>
     <!-- menu end -->
     <!-- action button -->
-    <a href="https://wa.me/+919391742895?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
+    <a href="https://wa.me/+917207080232?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
     <!-- action button end -->
     </div>
     <!-- menu button -->

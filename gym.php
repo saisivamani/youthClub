@@ -91,8 +91,8 @@
             <a href="">Pages</a>
             <ul>
               <li><a href="gallery.php">Gallery</a></li>
-              <li><a href="404.php">Events</a></li>
-              <li><a href="404.php">Affiliations</a></li>
+              <li><a href="events.php">Events</a></li>
+              <li><a href="affiliations.php">Affiliations</a></li>
               <li><a href="contact.php">Contact</a></li>
             </ul>
           </li>

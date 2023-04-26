@@ -114,7 +114,7 @@
     </div>
     <!-- menu end -->
       <!-- action button -->
-      <a href="https://wa.me/+919391742895?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
+      <a href="https://wa.me/+917207080232?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
       <!-- action button end -->
     </div>
     <!-- menu button -->
@@ -240,8 +240,8 @@
             <div class="col-lg-6 align-self-center">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                  <h2 class="knsl-mb-20">We have 17+ years <br>of Experience</h2>
-                  <p class="knsl-mb-30">Past 17+ Years We Are Running This Club In Bhimavaram.</p>
+                  <h2 class="knsl-mb-20">We have 30+ years <br>of Experience</h2>
+                  <p class="knsl-mb-30">Past 30+ Years We Are Running This Club In Bhimavaram.</p>
                   <a href="about.php" class="knsl-btn knsl-btn-md">More about us</a>
                 </div>
               </div>
@@ -433,7 +433,7 @@
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="2"></div>
+                <div class="knsl-counter-number knsl-mb-10" data-count="1"></div>
                 <h5>Bar & Restaurant</h5>
               </div>
               <!-- icon box end -->
@@ -443,7 +443,7 @@
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="100"></div>
+                <div class="knsl-counter-number knsl-mb-10" data-count="50"></div>
                 <h5>Rooms</h5>
               </div>
               <!-- icon box end -->
@@ -453,8 +453,8 @@
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="6"></div>
-                <h5>Beaches</h5>
+                <div class="knsl-counter-number knsl-mb-10" data-count="3"></div>
+                <h5>Rummy Halls</h5>
               </div>
               <!-- icon box end -->
 
@@ -463,7 +463,7 @@
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="4586"></div>
+                <div class="knsl-counter-number knsl-mb-10" data-count="5000"></div>
                 <h5>Guests</h5>
               </div>
               <!-- icon box end -->
@@ -503,23 +503,12 @@
                       <a href="rooms.php"><img src="img/26.jpg" alt="cover"></a>
                     </div>
                     <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>4 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>95 Ft²</span>
-                        </div>
-                      </div>
+                      
                       <a href="rooms.php">
                         <h3 class="knsl-mb-20">Deluxe room</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Delux Room Which Is Capable Of 4 Guests</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹5175.0<span>/night</span></div>
-                      </div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Delux Room</div>
+                      
                     </div>
                   </div>
                   <!-- room card end -->
@@ -534,22 +523,12 @@
                       <div class="knsl-badge">Popular</div>
                     </div>
                     <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>2 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>50 Ft²</span>
-                        </div>
-                      </div>
+                      
                       <a href="rooms.php">
                         <h3 class="knsl-mb-20">Standart Room</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Standart Room Which Is Capable Of 2 Guests</div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Standart Room</div>
                       <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹1575.0<span>/night</span></div>
                       </div>
                     </div>
                   </div>
@@ -564,178 +543,18 @@
                       <a href="rooms.php"><img src="img/28.jpg" alt="cover"></a>
                     </div>
                     <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>4 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>95 Ft²</span>
-                        </div>
-                      </div>
+                      
                       <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Deluxe room</h3>
+                        <h3 class="knsl-mb-20">Suite Room</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Delux Room Which Is Capable Of 4 Guests</div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Suite Room</div>
                       <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹5175.0<span>/night</span></div>
                       </div>
                     </div>
                   </div>
                   <!-- room card end -->
 
                 </div>
-                <div class="swiper-slide">
-
-                  <!-- room card -->
-                  <div class="knsl-room-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <a href="rooms.php"><img src="img/29.jpg" alt="cover"></a>
-                    </div>
-                    <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>1 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>35 Ft²</span>
-                        </div>
-                      </div>
-                      <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Economy room</h3>
-                      </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Economy Room Which Is Capable Of 1 Guests</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹1075.0<span>/night</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- room card end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- room card -->
-                  <div class="knsl-room-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <a href="rooms.php"><img src="img/30.jpg" alt="cover"></a>
-                    </div>
-                    <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>4 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>95 Ft²</span>
-                        </div>
-                      </div>
-                      <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Deluxe room</h3>
-                      </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Delux Room Which Is Capable Of 4 Guests</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹5175.0<span>/night</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- room card end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- room card -->
-                  <div class="knsl-room-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <a href="rooms.php"><img src="img/32.jpg" alt="cover"></a>
-                      <div class="knsl-badge">Popular</div>
-                    </div>
-                    <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>2 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>50 Ft²</span>
-                        </div>
-                      </div>
-                      <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Standart Room</h3>
-                      </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Standart Room Which Is Capable Of 2 Guests</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹1575.0<span>/night</span></div>
-                      </div>
-
-                    </div>
-                  </div>
-                  <!-- room card end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- room card -->
-                  <div class="knsl-room-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <a href="rooms.php"><img src="img/26.jpg" alt="cover"></a>
-                    </div>
-                    <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>1 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>35 Ft²</span>
-                        </div>
-                      </div>
-                      <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Economy room</h3>
-                      </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Economy Room Which Is Capable Of 1 Guests</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹1055.0<span>/night</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- room card end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- room card -->
-                  <div class="knsl-room-card knsl-scroll-animation">
-                    <div class="knsl-cover-frame">
-                      <a href="rooms.php"><img src="img/27.jpg" alt="cover"></a>
-                    </div>
-                    <div class="knsl-description-frame">
-                      <div class="knsl-room-features">
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/bed.svg" alt="icon"></div>
-                          <span>4 Guests</span>
-                        </div>
-                        <div class="knsl-feature">
-                          <div class="knsl-icon-frame"><img src="img/icons/square.svg" alt="icon"></div>
-                          <span>95 Ft²</span>
-                        </div>
-                      </div>
-                      <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Deluxe room</h3>
-                      </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing Deluxe Room Which Is Capable Of 4 Guests</div>
-                      <div class="knsl-card-bottom">
-                        <div class="knsl-price">₹5175.0<span>/night</span></div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- room card end -->
 
                 </div>
               </div>

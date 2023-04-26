@@ -28,8 +28,9 @@
 
 <body>
 
-    <!-- page wrapper -->
+   <!-- page wrapper -->
   <div class="knsl-app">
+
 
 <!-- datepicker frame -->
 <div class="knsl-datepicker-place"></div>
@@ -58,7 +59,6 @@
               <li><a href="club_committee.php">Club Committee</a></li>
               <li><a href="club_secretariat.php">Club Secretariat</a></li>
             </ul>
-          </li>
           <li class="menu-item-has-children current-item" >
             <a href="tennis.php">Sports</a>
             <ul>
@@ -99,8 +99,8 @@
       </nav>
     </div>
     <!-- menu end -->
-       <!-- action button -->
-       <a href="https://wa.me/+919391742895?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
+      <!-- action button -->
+      <a href="https://wa.me/+919391742895?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
         <!-- action button end -->
     </div>
     <!-- menu button -->
@@ -109,8 +109,6 @@
   </div>
 </div>
 <!-- top bar end -->
-
-
 
     <!-- banner -->
     <section class="knsl-banner-simple knsl-transition-bottom">
@@ -121,10 +119,10 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">Billiards</h1>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Volley Ball</h1>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
-                <li><span>Billiards</span></li>
+                <li><span>Volley Ball</span></li>
               </ul>
             </div>
 
@@ -145,15 +143,15 @@
             <div class="col-lg-6">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                <li>Located in at entrance of the club, a beautiful and spacious room accommodates two full size billiard tables.</li>
-                <li>Regular users flood this room on all days. Tournaments at various levels are held here regularly with the Club being the holder of many prestigious ones.</li>
-                <li>Om Agarwal world Snooker Champion played at our club along with Asian and national Championships like Ashok Sandilya, Alok kumar and others</li>
-                </div>
+                <li>06.00am to 09.00pm and 04.00pm to 08.00pm.</li>
+                <li>Members are required to enroll themselves as individual monthly subscribers for shuttle Subscription per head will be as fixed by the committee from time to time.</li>
+                <li>Foot wear with non marking soles only will be allowed</li>  
+              </div>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="knsl-about-photo">
-                <img src="img/8.jpg" alt="cover">
+                <img src="img/51.jpg" alt="cover">
               </div>
             </div>
           </div>
@@ -188,8 +186,20 @@
 
                 <!-- gallery item -->
                 <div class="knsl-image-frame">
-                  <a data-fancybox="gallery" href="img/8.jpg">
-                    <img src="img/8.jpg" alt="about">
+                  <a data-fancybox="gallery" href="img/1.jpg">
+                    <img src="img/1.jpg" alt="about">
+                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+                  </a>
+                </div>
+                <!-- gallery item end -->
+
+              </div>
+              <div class="swiper-slide">
+
+                <!-- gallery item -->
+                <div class="knsl-image-frame">
+                  <a data-fancybox="gallery" href="img/18.jpg">
+                    <img src="img/18.jpg" alt="about">
                     <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
                   </a>
                 </div>
@@ -202,18 +212,6 @@
                 <div class="knsl-image-frame">
                   <a data-fancybox="gallery" href="img/5.jpg">
                     <img src="img/5.jpg" alt="about">
-                    <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                  </a>
-                </div>
-                <!-- gallery item end -->
-
-              </div>
-              <div class="swiper-slide">
-
-                <!-- gallery item -->
-                <div class="knsl-image-frame">
-                  <a data-fancybox="gallery" href="img/19.jpg">
-                    <img src="img/19.jpg" alt="about">
                     <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
                   </a>
                 </div>
@@ -247,11 +245,9 @@
 
 
 
-  <!-- Footer Start -->
-    <?php include 'footer.php' ?>
-  <!-- Footer End -->
-  
-
+    <!-- Footer Start -->
+  <?php include 'footer.php' ?>
+    <!-- Footer End -->
 
   <!-- jquery js -->
   <script src="js/plugins/jquery.min.js"></script>

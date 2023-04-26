@@ -100,7 +100,7 @@
     </div>
     <!-- menu end -->
       <!-- action button -->
-      <a href="https://wa.me/+919391742895?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
+      <a href="https://wa.me/+917207080232?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
         <!-- action button end -->
     </div>
     <!-- menu button -->
@@ -155,7 +155,7 @@
                <tr>
                <td><b>Contact</b></td>
                <td><b>:</b></td>
-               <td><b>+91-9133311326</b></td>
+               <td><b>+91-9959312345</b></td>
                </tr>
                <tr>
                 <td><b>Contact Person</b></td>
@@ -163,7 +163,7 @@
               <tr>
                 <td><b>Manager</b></td>
                 <td><b>:</b></td>
-                <td><b>Name</b></td>
+                <td><b>G Anjaneyula Raju</b></td>
               </tr>
               <tr>
                 <td><b>Cell</b></td>

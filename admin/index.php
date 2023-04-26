@@ -1,6 +1,19 @@
 <?php
+session_start();
+if(empty($_SESSION['pass'])) {
+  header("location:login.php");
+}
+$_SESSION['expiries']["pass"] = time() + 30*60; // 30 mins
+function expireSessionKeys() {
+  foreach ($_SESSION["pass"] as $key => $value) {
+  if (time() > $value) {
+  unset($_SESSION[$key]);
+  }
+  }
+  }
 $conn = new mysqli("localhost","root","","youthclub");
-$result = mysqli_query($conn,"select * from members");
+$result = mysqli_query($conn,"select * from members order by mship");
+session_cache_expire()
 ?>
 <!DOCTYPE html>
 <html lang="zxx">
@@ -100,6 +113,7 @@ $result = mysqli_query($conn,"select * from members");
             <thead>
               <tr>
                 <th>Member Name</th>
+                <th>Member Ship</th>
                 <th class="text-center">ID</th>
                 <th class="action text-right">Mobile Number</th>
               </tr>
@@ -125,7 +139,7 @@ $result = mysqli_query($conn,"select * from members");
 
 
                         <ul class="list-unstyled">
-                        <li><i class="fas pr-1"></i>S/o.Information Technology <br> <i class="fas fa-map-marker-alt pr-1"></i>'.$row['addrs'].'</li>
+                        <li>'.$row['sonoff'].' <br> <i class="fas fa-map-marker-alt pr-1"></i>'.$row['addr1'].' <br> '.$row['addr2'].' <br>'.$row['addr3'].' <br> </li>
                         
                         </ul>
 
@@ -135,11 +149,15 @@ $result = mysqli_query($conn,"select * from members");
                 </td>
                 <td class="candidate-list-favourite-time text-center">
                   <a class="candidate-list-favourite order-2 text-danger" href="#"></a>
+                  <span class="candidate-list-time order-1">'.$row['mship'].'</span>
+                </td>
+                <td class="candidate-list-favourite-time text-center">
+                  <a class="candidate-list-favourite order-2 text-danger" href="#"></a>
                   <span class="candidate-list-time order-1">'.$row['id'].'</span>
                 </td>
                 <td>
                   <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                  '.$row['phno'].'
+                  '.$row['mobile'].'
                   </ul>
                 </td>
               </tr>';
@@ -175,12 +193,14 @@ let filter = document.getElementById('myInput').value.toUpperCase();
       let td = tr[i].getElementsByTagName('td')[1];
       let t1 = tr[i].getElementsByTagName('td')[0];
       let t2 = tr[i].getElementsByTagName('td')[2];
+      let t3 = tr[i].getElementsByTagName('td')[3];
        
-    if(td || t1 || t2){
+    if(td || t1 || t2|| t3){
     let textvlaue = td.textContent || td.innerHTML;
     let pid = t1.textContent || t1.innerHTML;
-    let mob = t2.textContent || t2.innerHTML;
-    if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1 || mob.toUpperCase().indexOf(filter)>-1){
+    let mob = t3.textContent || t3.innerHTML;
+    let mid = t2.textContent || t2.innerHTML;
+    if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1 || mob.toUpperCase().indexOf(filter)>-1 || mid.toUpperCase().indexOf(filter)>-1){
         tr[i].style.display = "";
     }
     else{

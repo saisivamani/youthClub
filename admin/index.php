@@ -71,11 +71,13 @@ $result = mysqli_query($conn,"select * from members");
                 for(var i=0;i<tr.length;i++){
                     let td = tr[i].getElementsByTagName('td')[1];
                     let t1 = tr[i].getElementsByTagName('td')[0];
+                    let t2 = tr[i].getElementsByTagName('td')[2];
              
-                    if(td || t1){
+                    if(td || t1 || t2){
                         let textvlaue = td.textContent || td.innerHTML;
                         let pid = t1.textContent || t1.innerHTML;
-                        if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1){
+                        let mob = t2.textContent || t2.innerHTML;
+                        if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1 || mob.toUpperCase().indexOf(filter)>-1){
                             tr[i].style.display = "";
                         }
                         else{
@@ -165,132 +167,15 @@ $result = mysqli_query($conn,"select * from members");
                   '.$row['phno'].'
                   </ul>
                 </td>
-              </tr>
-                    ';
+              </tr>';
                   }
                 }
               ?>
               
-              <tr class="candidates-list">
-                <td class="title">
-                  <div class="thumb">
-                    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
-                  </div>
-                  <div class="candidate-list-details">
-                    <div class="candidate-list-info">
-                      <div class="candidate-list-title">
-                        <h5 class="mb-0"><a href="#">Ronald Bradley</a></h5>
-                      </div>
-                      <div class="candidate-list-option">
-                        <ul class="list-unstyled">
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>Bhimavaram,534204</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="candidate-list-favourite-time text-center">
-                  <a class="candidate-list-favourite order-2 text-danger" href="#"></i></a>
-                  <span class="candidate-list-time order-1">123</span>
-                </td>
-                <td>
-                  <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                    9640336946
-                  </ul>
-                </td>
-              </tr>
-              <tr class="candidates-list">
-                <td class="title">
-                  <div class="thumb">
-                    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
-                  </div>
-                  <div class="candidate-list-details">
-                    <div class="candidate-list-info">
-                      <div class="candidate-list-title">
-                        <h5 class="mb-0"><a href="#">Rafael Briggs</a></h5>
-                      </div>
-                      <div class="candidate-list-option">
-                        <ul class="list-unstyled">
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>Haines City, FL 33844</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="candidate-list-favourite-time text-center">
-                  <a class="candidate-list-favourite order-2 text-danger" href="#"></i></a>
-                  <span class="candidate-list-time order-1">123</span>
-                </td>
-                <td>
-                  <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                    9640336946
-                  </ul>
-                </td>
-              </tr>
-              <tr class="candidates-list">
-                <td class="title">
-                  <div class="thumb">
-                    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="">
-                  </div>
-                  <div class="candidate-list-details">
-                    <div class="candidate-list-info">
-                      <div class="candidate-list-title">
-                        <h5 class="mb-0"><a href="#">Vickie Meyer</a></h5>
-                      </div>
-                      <div class="candidate-list-option">
-                        <ul class="list-unstyled">
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>Minneapolis, MN 55406</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="candidate-list-favourite-time text-center">
-                  <a class="candidate-list-favourite order-2 text-danger" href="#"></i></a>
-                  <span class="candidate-list-time order-1">123</span>
-                </td>
-                <td>
-                  <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                    9640336946
-                  </ul>
-                </td>
-              </tr>
-              <tr class="candidates-list">
-                <td class="title">
-                  <div class="thumb">
-                    <img class="img-fluid" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="">
-                  </div>
-                  <div class="candidate-list-details">
-                    <div class="candidate-list-info">
-                      <div class="candidate-list-title">
-                        <h5 class="mb-0"><a href="#">Nichole Haynes</a></h5>
-                      </div>
-                      <div class="candidate-list-option">
-                        <ul class="list-unstyled">
-                          <li><i class="fas fa-map-marker-alt pr-1"></i>Botchergate, Carlisle</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </td>
-                <td class="candidate-list-favourite-time text-center">
-                  <a class="candidate-list-favourite order-2 text-danger" href="#"></i></a>
-                  <span class="candidate-list-time order-1">123</span>
-                </td>
-                <td>
-                  <ul class="list-unstyled mb-0 d-flex justify-content-end">
-                    9640336946
-                  </ul>
-                </td>
-              </tr>
+              
             </tbody>
           </table>
-          <div class="text-center mt-3 mt-sm-3">
-            <ul class="pagination justify-content-center mb-0">
-              <li class="page-item disabled"> <span class="page-link">Prev</span> </li>
-              <li class="page-item"> <a class="page-link" href="#">Next</a> </li>
-            </ul>
-          </div>
+          
         </div>
       </div>
     </div>

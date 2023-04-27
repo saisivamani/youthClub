@@ -122,11 +122,13 @@
 <!-- top bar end -->
 
 
-                         
+            
 
-  <!-- banner -->
-  <section class="knsl-banner">
-      <div class="knsl-cover-frame mySlides">
+
+
+<!-- banner -->
+<section class="knsl-banner">
+      <<div class="knsl-cover-frame mySlides">
         <img src="img/1.jpg" alt="banner" class="knsl-parallax">
       </div>
       <div class="knsl-cover-frame mySlides" >
@@ -135,8 +137,22 @@
       <div class="knsl-cover-frame mySlides">
         <img src="img/5.jpg" alt="banner" class="knsl-parallax">
       </div>
-      <div class="knsl-banner-content"></div>
+      <div class="knsl-overlay"></div>
+
+      <div class="knsl-banner-content">
+        <div class="container">
+          <div class="knsl-main-title">
+            <div class="knsl-white">          
+              <!-- main-title -->
+              <h1 class="knsl-center knsl-mb-10">Youth Cltural Assosiation</h1>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <!-- banner end -->
+
+
 
              <script>
                 var myIndex = 0;

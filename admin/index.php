@@ -3,7 +3,7 @@ session_start();
 if(empty($_SESSION['pass'])) {
   header("location:login.php");
 }
-$_SESSION['expiries']["pass"] = time() + 30*60; // 30 mins
+$_SESSION['expiries']["pass"] = time() + 1*10; // 30 mins
 function expireSessionKeys() {
   foreach ($_SESSION["pass"] as $key => $value) {
   if (time() > $value) {
@@ -75,12 +75,16 @@ session_cache_expire()
         
       </nav>
     </div>
+
+     <div class="knsl-menu">
+      <!-- action button -->
+      <a href="logout.php" class="knsl-btn"><img src="img/log_out.svg" alt="icon">LogOut</a>
+        <!-- action button end -->
+    </div>
    
     <!-- menu end -->
     </div>
-    <!-- menu button -->
-    <div class="knsl-menu-btn ml-10"><span></span></div>
-    <!-- menu button end -->
+   
   </div>
 </div>
 <!-- top bar end -->
@@ -108,16 +112,15 @@ session_cache_expire()
 
     <!-- search_bar -->
           
-<div class="container" >
+<!-- <div class="container" >
 <div class="flex-container">
   <div class="container" style="dispaly:flex;flex-warp:warp;">
       <form class="form-inline" >
-      <input class="form-control" type="search" placeholder="Search"  name="name" id="myInput" onkeyup="searchFun()" aria-label="Search" style="width:90%;height:45px;">
-      <button class="btn btn-outline-info ml-2 mb-3" type="submit">Search</button>
+      <input class="form-control" type="search" placeholder="Search" id="myInput" onkeyup="searchFun()" aria-label="Search" style="width:90%;height:45px;">
       </form>
   </div>
 </div>
-    </div>
+    </div> -->
     <!-- search_bar -->
 
 
@@ -130,6 +133,17 @@ session_cache_expire()
         <div class="user-dashboard-info-box table-responsive mb-0 bg-white p-4 shadow-sm">
           <table id="myTable" class="table manage-candidates-top mb-0" >
             <thead>
+              <!--Search Bar Start-->
+              <div class="container" >
+              <div class="flex-container">
+              <div class="container" style="dispaly:flex;flex-warp:warp;">
+             <form class="form-inline" >
+             <input class="form-control" type="search" placeholder="Search" id="myInput" onkeyup="searchFun()" aria-label="Search" style="width:100%;height:45px;">
+             </form>
+             </div>
+             </div>
+             </div>
+             <!--Search Bar End-->
               <tr>
                 <th>Member Name</th>
                 <th>Member Ship</th>

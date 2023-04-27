@@ -289,8 +289,8 @@
 
                   <!-- gallery item -->
                   <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/2.jpg">
-                      <img src="img/2.jpg" alt="about">
+                    <a data-fancybox="gallery" href="img/36.jpg">
+                      <img src="img/36.jpg" alt="about">
                       <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
                     </a>
                   </div>

@@ -210,7 +210,7 @@
                 <div class="col-lg-12">
                   <div class="knsl-form-submit-frame">
                     <!-- temporary button to show the popup -->
-                    <button type="button" class="knsl-btn" onclick="contact();" >Send</button>
+                    <button type="button" class="knsl-btn" onclick="gowhatsapp()" >Send</button>
                     <!-- <a class="knsl-btn" data-fancybox type="submit">Send</a> -->
                     <!-- <button class="knsl-btn">Send</button> -->
                     <div class="knsl-text-sm">*We promise not to disclose your personal information to third parties.</div>
@@ -250,7 +250,7 @@
   <!-- kinsley js -->
   <script src="js/main.js"></script>
   <!-- form js -->
-  <script src="js/script.js"></script>
+  <script src="js/form.js"></script>
 
 </body>
 

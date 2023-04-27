@@ -375,55 +375,6 @@
     <section class="knsl-p-100-100">
       <div class="container">
 
-        <!-- features card -->
-        <div class="knsl-features-card knsl-counters-card knsl-scroll-animation">
-
-          <div class="row">
-            <div class="col-6 col-lg-3">
-
-              <!-- icon box -->
-              <div class="knsl-icon-box">
-                <span class="knsl-counter-number knsl-mb-10" data-count="400"></span><span class="knsl-counter-number">+</span>
-                <h5>Guests daily</h5>
-              </div>
-              <!-- icon box end -->
-
-            </div>
-            <div class="col-6 col-lg-3">
-
-              <!-- icon box -->
-              <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="14"></div>
-                <h5>Professional chefs</h5>
-              </div>
-              <!-- icon box end -->
-
-            </div>
-            <div class="col-6 col-lg-3">
-
-              <!-- icon box -->
-              <div class="knsl-icon-box">
-                <span class="knsl-counter-number knsl-mb-10" data-count="600"></span><span class="knsl-counter-number">+</span>
-                <h5>Orders daily</h5>
-              </div>
-              <!-- icon box end -->
-
-            </div>
-            <div class="col-6 col-lg-3">
-
-              <!-- icon box -->
-              <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="4"></div>
-                <h5>Сomfortable halls</h5>
-              </div>
-              <!-- icon box end -->
-
-            </div>
-          </div>
-
-        </div>
-        <!-- features card end -->
-
       </div>
     </section>
     <!-- counters end -->

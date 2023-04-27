@@ -367,6 +367,23 @@
             <!-- service card end -->
 
           </div>
+          <div class="col-lg-4">
+
+            <!-- service card -->
+            <div class="knsl-ath-card knsl-scroll-animation">
+              <div class="knsl-cover-frame">
+                <img src="img/25.jpg" alt="cover">
+              </div>
+              <div class="knsl-card-description">
+                <h3 class="knsl-mb-10">Kalyanamandapam</h3>
+                <p>We Are Providing Best Kalyanamandapam Capable Of 1000 Guests</p>
+                <a href="about.php" class="knsl-btn">Read more</a>
+              </div>
+            </div>
+            <!-- service card end -->
+
+          </div>
+
         </div>
       </div>
     </section>

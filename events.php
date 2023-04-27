@@ -141,15 +141,66 @@
             <div class="col-lg-6">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                <li>Event Details</li>
-                <li>Event Details</li>
-                <li>Event Details</li>
+                <li>All India Ranking Tennis Tournament</li>
+                <li>Under 16 & 18 Boys And Girls  </li>
+                <li>12-11-2017 to 17-11-2017</li>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="knsl-about-photo">
-                <img src="img/40.jpg" alt="cover">
+                <img src="img/63.jpg" alt="cover">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+    <!-- about end -->
+        <!-- about -->
+        <section class="knsl-p-100-100">
+
+            <div class="container">
+             <div class="knsl-about-card">
+              <div class="row g-0">
+               <div class="col-lg-6">
+                <div class="knsl-about-text">
+                  <div class="knsl-title-frame">
+                    <li>Skipping Tournament</li>
+                   
+                 </div>
+               </div>
+             </div>
+           <div class="col-lg-6">
+           <div class="knsl-about-photo">
+          <img src="img/57.jpg" alt="cover">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+<!-- about end -->
+
+    <!-- about -->
+    <section class="knsl-p-100-100">
+
+      <div class="container">
+        <div class="knsl-about-card">
+          <div class="row g-0">
+            <div class="col-lg-6">
+              <div class="knsl-about-text">
+                <div class="knsl-title-frame">
+                <li>Cultural Dance Performance</li>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="knsl-about-photo">
+                <img src="img/62.jpg" alt="cover">
               </div>
             </div>
           </div>

@@ -560,6 +560,138 @@
 
           </div>
 
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/52.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/52.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/53.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/53.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/54.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/54.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/55.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/55.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/56.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/56.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/57.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/57.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/58.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/58.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/59.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/59.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/60.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/60.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/61.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/61.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+
+            <!-- gallery item -->
+            <a data-fancybox="gallery" href="img/62.jpg" class="knsl-gallery-item knsl-scroll-animation">
+              <img src="img/62.jpg" alt="image">
+              <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
+            </a>
+            <!-- gallery item end -->
+
+          </div>
+
+
+          
+
         </div>
       </div>
     </div>

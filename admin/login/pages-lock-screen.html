@@ -1,16 +1,3 @@
-<?php
-if(isset($_POST['submit'])){
-	$pass = $_POST['pass'];
-	if($pass == '9959312345'){
-		session_start();
-		$_SESSION['pass'] = $pass;
-		header('location:index.php');
-	}
-	else echo "<script>alert('You Entered Wrong Password')</script>";
-}
-?>
-
-
 <!doctype html>
 <html class="fixed">
 	<head>
@@ -62,7 +49,7 @@ if(isset($_POST['submit'])){
 							</div>
 							<div class="form-group mb-3">
 								<div class="input-group">
-									<input name="pass" id="pwd" type="password" class="form-control form-control-lg" placeholder="Password" />
+									<input id="pwd" type="password" class="form-control form-control-lg" placeholder="Password" />
 									<span class="input-group-text">
 										<i class="bx bx-lock"></i>
 									</span>
@@ -71,7 +58,9 @@ if(isset($_POST['submit'])){
 
 							<div class="row">
 								<div class="col-6">
-									
+									<p class="mt-1 mb-3">
+										<a href="#">Not John Doe?</a>
+									</p>
 								</div>
 								<div class="col-6">
 									<button type="submit" name="submit" class="btn btn-primary pull-right">Unlock</button>

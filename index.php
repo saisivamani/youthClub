@@ -561,7 +561,7 @@
                         <h3 class="knsl-mb-20">Suite Room</h3>
                       </a>
                       <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Suite Room</div>
-                      <div class="knsl-card-bottom">
+                      <div class="knsl-card-bottom"> 
                       </div>
                     </div>
                   </div>
@@ -573,13 +573,13 @@
               </div>
 
               <!-- slider navigation -->
-              <div class="knsl-uni-slider-nav-panel">
+              <!-- <div class="knsl-uni-slider-nav-panel">
                 <div class="knsl-uni-slider-pagination"></div>
                 <div class="knsl-uni-nav">
                   <div class="knsl-uni-slider-prev"><i class="fas fa-arrow-left"></i></div>
                   <div class="knsl-uni-slider-next"><i class="fas fa-arrow-right"></i></div>
                 </div>
-              </div>
+              </div> -->
               <!-- slider navigation end -->
 
             </div>

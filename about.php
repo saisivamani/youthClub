@@ -147,7 +147,7 @@
             <!-- icon box -->
             <div class="knsl-icon-box knsl-scroll-animation">
               <img src="img/features/1.svg" alt="icon" class="knsl-mb-10">
-              <h5>Transport</h5>
+              <h5>Game Zone</h5>
             </div>
             <!-- icon box end -->
 
@@ -281,7 +281,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Lounge bar</h3>
                 <p>Officially Licensed Bar</p>
-                <a href="index.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->
@@ -297,7 +296,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Conference Hall</h3>
                 <p>Hall For Official Meetings.</p>
-                <a href="index.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->
@@ -313,7 +311,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Restaurant</h3>
                 <p>Best Restaurant Best Food</p>
-                <a href="restaurant.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->
@@ -329,7 +326,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Game zone</h3>
                 <p>Game zone of indoor and outdoor</p>
-                <a href="tennis.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->
@@ -345,7 +341,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Rooms</h3>
                 <p>We Are Providing Best And High Class Rooms</p>
-                <a href="rooms.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->
@@ -361,7 +356,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Gym</h3>
                 <p>Gym With Best Equipment.</p>
-                <a href="gym.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->
@@ -377,7 +371,6 @@
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Kalyanamandapam</h3>
                 <p>We Are Providing Best Kalyanamandapam Capable Of 1000 Guests</p>
-                <a href="about.php" class="knsl-btn">Read more</a>
               </div>
             </div>
             <!-- service card end -->

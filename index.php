@@ -144,7 +144,7 @@
           <div class="knsl-main-title">
             <div class="knsl-white">          
               <!-- main-title -->
-              <h1 class="knsl-center knsl-mb-10">Youth Cltural Assosiation</h1>
+              <h1 class="knsl-center knsl-mb-10">Youth Cultrual Assosiation</h1>
               <div class="knsl-mb-30 knsl-center">Bhimavaram</div>
 
             </div>
@@ -197,7 +197,7 @@
               <!-- icon box -->
               <div class="knsl-icon-box">
                 <img src="img/features/1.svg" alt="icon" class="knsl-mb-10">
-                <h5>Transport</h5>
+                <h5>Game Zone</h5>
               </div>
               <!-- icon box end -->
 
@@ -207,7 +207,7 @@
               <!-- icon box -->
               <div class="knsl-icon-box">
                 <img src="img/features/2.svg" alt="icon" class="knsl-mb-10">
-                <h5>All inclusive</h5>
+                <h5>All facility</h5>
               </div>
               <!-- icon box end -->
 
@@ -227,7 +227,7 @@
               <!-- icon box -->
               <div class="knsl-icon-box">
                 <img src="img/features/4.svg" alt="icon" class="knsl-mb-10">
-                <h5>Under protection</h5>
+                <h5>Security</h5>
               </div>
               <!-- icon box end -->
 

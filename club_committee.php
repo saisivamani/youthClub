@@ -134,10 +134,10 @@
    <section class="knsl-p-0-80">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-08">
 
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-10 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -149,7 +149,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -162,7 +162,7 @@
           </div>
 
         </div>
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -175,7 +175,7 @@
           </div>
         </div>
        
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -188,7 +188,7 @@
           </div>
         </div>
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -201,7 +201,7 @@
           </div>
         </div>
         
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -215,7 +215,7 @@
         </div>
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -230,7 +230,7 @@
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -245,7 +245,7 @@
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -253,14 +253,14 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">B.Ranga Raju</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -268,14 +268,14 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">K.Srinivasa Raju</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -283,14 +283,14 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">S.B.Suryanarayana Raju</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -298,13 +298,13 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">C.Phanindra Varma</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -312,7 +312,7 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">G.Padma Raju</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
@@ -321,7 +321,7 @@
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -329,7 +329,7 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">P.Venkatapathi Raju</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
@@ -337,7 +337,7 @@
 
 
 
-        <div class="col-12 col-md-4">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">
@@ -345,16 +345,10 @@
             </div>
             <div class="knsl-team-member-descr">
               <h3 class="knsl-mb-10">A.Venkata Naga Raju</h3>
-              <div>Member</div>
+              <div>Director</div>
             </div>
           </div>
         </div>
-
-
-
-
-
-
       </div>
     </div>
   </section>

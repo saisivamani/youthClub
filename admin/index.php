@@ -41,6 +41,10 @@ session_cache_expire()
   <link rel="stylesheet" href="css/style.css">
   <!-- Members css-->
   <link rel="stylesheet" href="css/style1.css">
+  <!-- Font css -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,800" rel="stylesheet" />
+  <!-- search Bar Css -->
+    <link href="css/main_search.css" rel="stylesheet" />
   <!-- page title -->
   <title>Youth Club</title>
 </head>
@@ -71,7 +75,6 @@ session_cache_expire()
         
       </nav>
     </div>
-    <input type="text" placeholder="search" style="background-color: aquamarine;" name="name" id="myInput" onkeyup="searchFun()">
    
     <!-- menu end -->
     </div>
@@ -98,8 +101,24 @@ session_cache_expire()
           </div>
         </div>
       </div>
+      
     </section>
     <!-- banner end -->
+
+
+    <!-- search_bar -->
+          
+<div class="container" >
+<div class="flex-container">
+  <div class="container" style="dispaly:flex;flex-warp:warp;">
+      <form class="form-inline" >
+      <input class="form-control" type="search" placeholder="Search"  name="name" id="myInput" onkeyup="searchFun()" aria-label="Search" style="width:90%;height:45px;">
+      <button class="btn btn-outline-info ml-2 mb-3" type="submit">Search</button>
+      </form>
+  </div>
+</div>
+    </div>
+    <!-- search_bar -->
 
 
 

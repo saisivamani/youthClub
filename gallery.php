@@ -136,7 +136,7 @@
         <div class="knsl-filter knsl-mb-60">
           <a href="#" data-filter="*" class="knsl-work-category knsl-current">All Photos</a>
           <a href="#" data-filter=".hotel" class="knsl-work-category">Hotel</a>
-          <a href="#" data-filter=".beach" class="knsl-work-category">Beach</a>
+          <a href="#" data-filter=".events" class="knsl-work-category">events</a>
           <a href="#" data-filter=".restaurant" class="knsl-work-category">Restaurant</a>
         </div>
 
@@ -153,7 +153,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 beach hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events hotel">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/2.jpg" class="knsl-gallery-item">
@@ -175,7 +175,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel beach">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/4.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -186,7 +186,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 beach">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/5.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -230,7 +230,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 beach">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/9.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -666,7 +666,6 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/61.jpg" class="knsl-gallery-item knsl-scroll-animation">

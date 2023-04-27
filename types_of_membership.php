@@ -134,7 +134,7 @@
         <!-- <div class="row g-0"> -->
           <!-- <div class="col-lg-6"> -->
             <div class="knsl-about-text">
-              <div class="knsl-title-">
+              <div class="knsl-title-"j style="font-size:large;">
               
               <li><b>Donor Member</b> :  All those members who have signed on the Memorandum of Association shall be the founder members of the Club.</li>
               <li><b> Life Member</b> : The membership in this category remains duringthe life time of themember.</li>

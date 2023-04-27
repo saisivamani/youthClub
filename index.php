@@ -145,6 +145,8 @@
             <div class="knsl-white">          
               <!-- main-title -->
               <h1 class="knsl-center knsl-mb-10">Youth Cltural Assosiation</h1>
+              <div class="knsl-mb-30 knsl-center">Bhimavaram</div>
+
             </div>
           </div>
         </div>
@@ -262,7 +264,7 @@
             <div class="col-lg-6 order-lg-2">
               <div class="knsl-video-frame">
                 <img src="img/14.jpg" alt="cover">
-                <a data-fancybox href="https://www.youtube.com/watch?v=3pN8bqHeA4I&t=3s" class="knsl-play-btn">
+                <a data-fancybox href="https://youtu.be/5xbW4GyiVD0" class="knsl-play-btn">
                   <i class="fas fa-play"></i>
                 </a>
               </div>
@@ -456,7 +458,7 @@
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="50"></div>
+                <div class="knsl-counter-number knsl-mb-10" data-count="50"></div><span class="plus-value" style="font-size: 40px;">+</span>
                 <h5>Rooms</h5>
               </div>
               <!-- icon box end -->
@@ -476,8 +478,9 @@
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="5000"></div>
-                <h5>Guests</h5>
+
+                <div class="knsl-counter-number knsl-mb-10" data-count="1000"></div><span class="plus-value" style="font-size: 40px;">+</span>
+                <h5>Members</h5>
               </div>
               <!-- icon box end -->
 

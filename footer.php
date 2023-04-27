@@ -32,7 +32,7 @@ echo ' <!-- footer -->
             <li><a href="#.">Privacy policy</a></li>
             <li><a href="#.">Help center</a></li>
             <li><a href="#.">Work with us</a></li>
-            <li><a href="https://goo.gl/maps/vwERt5eYBK1AA2CZ8">Instagram</a></li>
+            <li><a href="#.">Instagram</a></li>
           </ul>
         </div>
         <div class="col-md-6 col-lg-3">

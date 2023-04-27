@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['submit'])){
 	$pass = $_POST['pass'];
-	if($pass == 'SRKRCSD'){
+	if($pass == '9959312345'){
 		session_start();
 		$_SESSION['pass'] = $pass;
 		header('location:index.php');

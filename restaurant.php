@@ -391,14 +391,14 @@
                 <div class="knsl-title-frame">
                   <h2 class="knsl-mb-20">We are not just delicious. <br>We are perfect!</h2>
                   <p class="knsl-mb-30">We Are Focusing On Taste Of The Food As Well As The Health Of The Guest. We Are Trying To Make Our Food 100% Naturally.</p>
-                  <a href="https://www.youtube.com/watch?v=3pN8bqHeA4I&t=3s" target="_blank" class="knsl-btn"><img src="img/icons/play.svg" alt="icon">Watch video</a>
+                  <a href="https://youtu.be/5xbW4GyiVD0" target="_blank" class="knsl-btn"><img src="img/icons/play.svg" alt="icon">Watch video</a>
                 </div>
               </div>
             </div>
             <div class="col-lg-6">
               <div class="knsl-video-frame">
                 <img src="img/48.jpg" alt="cover">
-                <a data-fancybox href="https://www.youtube.com/watch?v=3pN8bqHeA4I&t=3s" class="knsl-play-btn">
+                <a data-fancybox href="https://youtu.be/5xbW4GyiVD0" class="knsl-play-btn">
                   <i class="fas fa-play"></i>
                 </a>
               </div>

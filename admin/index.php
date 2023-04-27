@@ -108,21 +108,23 @@ session_cache_expire()
       
     </section>
     <!-- banner end -->
-    <!-- counters -->
-    <section class="knsl-p-0-100" style="background-color: #ECFAFB">
+
+
+<!-- counters -->
+<section  style="background-color: #ECFAFB">
       <img src="img/palm.svg" class="knsl-deco-right" alt="palm">
       <div class="container">
 
         <!-- features card -->
-        <div class="knsl-features-card knsl-counters-card knsl-scroll-animation">
+        <div class="knsl-features-card knsl-counters-card">
 
           <div class="row">
             <div class="col-6 col-lg-3">
 
               <!-- icon box -->
               <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="1"></div>
-                <h5>Bar & Restaurant</h5>
+                <div class="knsl-counter-number knsl-mb-10" data-count="1000"></div><span class="plus-value" style="font-size: 40px;">+</span>
+                <h5>Members</h5>
               </div>
               <!-- icon box end -->
 
@@ -131,28 +133,29 @@ session_cache_expire()
 
               <!-- icon box -->
               <div class="knsl-icon-box">
+                <div class="knsl-counter-number knsl-mb-10" data-count="429"></div>
+                <h5>DONOR Members</h5>
+              </div>
+              <!-- icon box end -->
+
+            </div>
+            <div class="col-6 col-lg-3">
+
+              <!-- icon box -->
+              <div class="knsl-icon-box">
+                <div class="knsl-counter-number knsl-mb-10" data-count="634"></div>
+                <h5>Life Members</h5>
+              </div>
+              <!-- icon box end -->
+
+            </div>
+            <div class="col-6 col-lg-3">
+
+              <!-- icon box -->
+              <div class="knsl-icon-box">
+
                 <div class="knsl-counter-number knsl-mb-10" data-count="50"></div>
-                <h5>Rooms</h5>
-              </div>
-              <!-- icon box end -->
-
-            </div>
-            <div class="col-6 col-lg-3">
-
-              <!-- icon box -->
-              <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="3"></div>
-                <h5>Rummy Halls</h5>
-              </div>
-              <!-- icon box end -->
-
-            </div>
-            <div class="col-6 col-lg-3">
-
-              <!-- icon box -->
-              <div class="knsl-icon-box">
-                <div class="knsl-counter-number knsl-mb-10" data-count="5000"></div>
-                <h5>Guests</h5>
+                <h5>Expired Members</h5>
               </div>
               <!-- icon box end -->
 

@@ -143,7 +143,6 @@
                 <div class="knsl-title-frame">
                 <li>Located in at entrance of the club, a beautiful and spacious room accommodates two full size billiard tables.</li>
                 <li>Regular users flood this room on all days. Tournaments at various levels are held here regularly with the Club being the holder of many prestigious ones.</li>
-                <li>Om Agarwal world Snooker Champion played at our club along with Asian and national Championships like Ashok Sandilya, Alok kumar and others</li>
                 </div>
               </div>
             </div>

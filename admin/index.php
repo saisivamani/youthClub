@@ -4,6 +4,8 @@ session_start();
 if(empty($_SESSION['pass'])){
 	header("location:login.php");
 }
+include "connect.php";
+$run = mysqli_query($conn,"select * from members order by id");
 
 
 ?>
@@ -197,7 +199,7 @@ if(empty($_SESSION['pass'])){
 												</tr>
 											</thead>
 											<tbody>
-												<tr>
+												<!-- <tr>
 													<td data-title="Name" class="text-center">Mani</td>
 													<td data-title="Address" class="text-center">Bhimavaram</td>
 													<td data-title="Membership Type" class="text-center">Donor</td>
@@ -211,7 +213,35 @@ if(empty($_SESSION['pass'])){
 													<td data-title="Membership Type" class="text-center">Donor</td>
 													<td data-title="Reg Id" class="text-center ">2</td>
 													<td data-title="Mobile Number" class="text-center">9052727402</td>
-												</tr>
+												</tr> -->
+												<?php
+												$result = array();
+													if(mysqli_num_rows($run)>0){
+														while($row = mysqli_fetch_assoc($run)){
+															$result[] = $row;
+														}
+														for ($i = 0; $i < 10 && $i < count($result); $i++) {
+															echo '<tr>
+															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
+															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
+															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
+															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
+															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+														</tr>';
+														}
+														for ($i = 10; $i <= mysqli_num_rows($run) && $i < count($result); $i++) {
+															echo '<tr style="display: none;">
+															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
+															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
+															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
+															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
+															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+														</tr>';
+														}
+													}
+												?>
 												
 												
 											</tbody>

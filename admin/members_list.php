@@ -1,6 +1,5 @@
 <?php
-$conn = new mysqli("localhost","root","","youthclub");
-// $conn = new mysqli("localhost","ycabvrm","ycabvrm#1990","youthclub");
+include "connect.php";
 $run = mysqli_query($conn,"select * from members order by id");
 ?>
 
@@ -104,29 +103,15 @@ $run = mysqli_query($conn,"select * from members order by id");
 											</thead>
 											<tbody>
 												<?php
-												$result = array();
 													if(mysqli_num_rows($run)>0){
 														while($row = mysqli_fetch_assoc($run)){
-															$result[] = $row;
-														}
-														for ($i = 0; $i < 10 && $i < count($result); $i++) {
 															echo '<tr>
-															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
-															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
-															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
-															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
-															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
-														</tr>';
-														}
-														for ($i = 10; $i <= mysqli_num_rows($run) && $i < count($result); $i++) {
-															echo '<tr style="display: none;">
-															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
-															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
-															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
-															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
-															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+															<td data-title="Reg Id" class="text-Start">'.$row['id'].'</td>
+															<td data-title="Name" class="text-Start">'.$row['name'].'</td>
+															<td data-title="Son OFF" class="text-Start">'.$row['sonoff'].'</td>
+															<td data-title="Membership Type" class="text-Start">'.$row['mship'].'</td>
+															<td data-title="Address" class="text-Start ">'.$row['addr1'].'<br>'.$row['addr2'].'<br>'.$row['addr3'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$row['mobile'].'</td>
 														</tr>';
 														}
 													}

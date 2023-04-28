@@ -1,7 +1,7 @@
 <header class="header">
 				<div class="logo-container">
 					<a href="#" class="logo">
-						<img src="img/logo.png" width="60" height="50" alt="YCA" />
+						<img src="img/logo.png" width="70" height="60" alt="YCA" />
 					</a>
 
 					<div class="d-md-none toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">

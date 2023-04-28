@@ -213,6 +213,7 @@ $run = mysqli_query($conn,"select * from members order by id");
 													<td data-title="Membership Type" class="text-center">Donor</td>
 													<td data-title="Reg Id" class="text-center ">2</td>
 													<td data-title="Mobile Number" class="text-center">9052727402</td>
+<<<<<<< HEAD
 												</tr> -->
 												<?php
 												$result = array();
@@ -244,6 +245,9 @@ $run = mysqli_query($conn,"select * from members order by id");
 												?>
 												
 												
+=======
+												</tr>												
+>>>>>>> d86d09319b5fcdbc65d84c257dd4d35a18b512f5
 											</tbody>
 										</table>
 									</div>

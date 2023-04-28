@@ -144,7 +144,7 @@
           <div class="knsl-main-title">
             <div class="knsl-white">          
               <!-- main-title -->
-              <h1 class="knsl-center knsl-mb-10">Youth Cultrual Assosiation</h1>
+              <h1 class="knsl-center knsl-mb-10">Youth Cultural Association</h1>
               <div class="knsl-mb-30 knsl-center">Bhimavaram</div>
 
             </div>

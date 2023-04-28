@@ -200,9 +200,7 @@
 													<td data-title="Membership Type" class="text-center">Donor</td>
 													<td data-title="Reg Id" class="text-center ">2</td>
 													<td data-title="Mobile Number" class="text-center">9052727402</td>
-												</tr>
-												
-												
+												</tr>												
 											</tbody>
 										</table>
 									</div>

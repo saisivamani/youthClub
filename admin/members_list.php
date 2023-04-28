@@ -1,3 +1,12 @@
+<?php
+$conn = new mysqli("localhost","root","","youthclub");
+// $conn = new mysqli("localhost","ycabvrm","ycabvrm#1990","youthclub");
+$run = mysqli_query($conn,"select * from members order by id");
+?>
+
+
+
+
 <!doctype html>
 <html class="fixed sidebar-light">
 	<head>
@@ -59,14 +68,14 @@
 							<div class="col">
 								<section class="card">
 									<header class="card-header" style="display:flex;flex-direction:row;gap:100px;justify-content:space-between;">
-									<table>
+									<table >
                                      <tr>
                                       <td>
                                         <h2 class="card-title mt-2"  style="text-transform:uppercase;">Youth Club Members</h2>
                                       </td>
                                         <div class="col-lg-6">
 											<div id="datatable-default_filter" class="dataTables_filter">
-												<label><input type="search" class="form-control pull-right" placeholder="Search by reg id or name..." aria-controls="datatable-default"></label>
+												<label><input type="search" id="myInput" onkeyup="searchFun()" class="form-control pull-right" placeholder="Search by reg id or name..." aria-controls="datatable-default"></label>
 											</div>
 										</div>
 									</tr>
@@ -82,24 +91,53 @@
   
 									
 									<div class="card-body">
-										<table class="table table-no-more table-bordered table-striped mb-0">
+										<table id="myTable" class="table table-no-more table-bordered table-striped mb-0">
 											<thead>
 												<tr>
-													<th class="text-end">Name</th>
-													<th class="text-end">Address</th>
-													<th class="text-end">Membership Type</th>
-													<th class="text-end ">Reg Id</th>
-													<th class="text-end">Mobile Number</th>
+													<th class="text-Start ">Reg Id</th>
+													<th class="text-Start">Name</th>
+													<th class="text-Start">Parent</th>
+													<th class="text-Start">Membership Type</th>
+													<th class="text-Start">Address</th>
+													<th class="text-Start">Mobile Number</th>
 												</tr>
 											</thead>
 											<tbody>
-												<tr>
+												<?php
+												$result = array();
+													if(mysqli_num_rows($run)>0){
+														while($row = mysqli_fetch_assoc($run)){
+															$result[] = $row;
+														}
+														for ($i = 0; $i < 10 && $i < count($result); $i++) {
+															echo '<tr>
+															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
+															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
+															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
+															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
+															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+														</tr>';
+														}
+														for ($i = 10; $i <= mysqli_num_rows($run) && $i < count($result); $i++) {
+															echo '<tr style="display: none;">
+															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
+															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
+															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
+															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
+															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+														</tr>';
+														}
+													}
+												?>
+												<!-- <tr>
 													<td data-title="Name" class="text-end">Mani</td>
 													<td data-title="Address" class="text-end">Bhimavaram</td>
 													<td data-title="Membership Type" class="text-end">Donor</td>
 													<td data-title="Reg Id" class="text-end ">1</td>
 													<td data-title="Mobile Number" class="text-end">9640336946</td>
-												</tr>
+												</tr> -->
 												
 												
 											</tbody>
@@ -113,6 +151,38 @@
 				</section>
 			</div>			
 		</section>
+
+<script>
+      
+	const searchFun = () => {
+	let filter = document.getElementById('myInput').value.toUpperCase();
+          
+  	let myTable = document.getElementById('myTable');
+  
+  	let tr = myTable.getElementsByTagName('tr');
+
+  	for(var i=0;i<tr.length;i++){
+      let td = tr[i].getElementsByTagName('td')[1];
+      let t1 = tr[i].getElementsByTagName('td')[0];
+    //   let t2 = tr[i].getElementsByTagName('td')[2];
+    //   let t3 = tr[i].getElementsByTagName('td')[3];
+       
+    if(td || t1){
+    let textvlaue = td.textContent || td.innerHTML;
+    let pid = t1.textContent || t1.innerHTML;
+    // let mob = t3.textContent || t3.innerHTML;
+    // let mid = t2.textContent || t2.innerHTML;
+    if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1){
+        tr[i].style.display = "";
+    }
+    else{
+        tr[i].style.display = "none";
+    }
+        }
+    }
+
+        }
+</script>
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.js"></script>

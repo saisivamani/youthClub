@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+if(empty($_SESSION['pass'])){
+	header("location:login.php");
+}
+
+
+?>
+
+
 <!doctype html>
 <html class="fixed sidebar-light">
 	<head>
@@ -236,86 +247,86 @@
 										<table class="table table-no-more table-bordered table-striped mb-2">
 											<thead>
 												<tr>
-													<th class="text-center">Name</th>
-													<th class="text-center">Designation</th>
+													<th class="text-start">Name</th>
+													<th class="text-start">Designation</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
-													<td data-title="Name" class="text-center">G.Venkata Narasimha Raju</td>
-													<td data-title="Designation" class="text-center">Honourable President</td>
+													<td data-title="Name" class="text-start">G.Venkata Narasimha Raju</td>
+													<td data-title="Designation" class="text-start">Honourable President</td>
 												</tr>
 												
 												<tr>
-													<td data-title="Name" class="text-center">P.V.L.Narasimha Raju</td>
-													<td data-title="Designation" class="text-center">President</td>
+													<td data-title="Name" class="text-start">P.V.L.Narasimha Raju</td>
+													<td data-title="Designation" class="text-start">President</td>
 												</tr>
 
 
 												<tr>
-													<td data-title="Name" class="text-center">M.V.N.Sita Rama Raju</td>
-													<td data-title="Designation" class="text-center">Vice President</td>
+													<td data-title="Name" class="text-start">M.V.N.Sita Rama Raju</td>
+													<td data-title="Designation" class="text-start">Vice President</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">P.V.Venkata Srinivasa Raju</td>
-													<td data-title="Designation" class="text-center">Vice President</td>
+													<td data-title="Name" class="text-start">P.V.Venkata Srinivasa Raju</td>
+													<td data-title="Designation" class="text-start">Vice President</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">K.Venkata Satyanarayana Raju</td>
-													<td data-title="Designation" class="text-center">Secretary</td>
+													<td data-title="Name" class="text-start">K.Venkata Satyanarayana Raju</td>
+													<td data-title="Designation" class="text-start">Secretary</td>
 												</tr>
 
 
 												<tr>
-													<td data-title="Name" class="text-center">M.Suryanarayana Raju</td>
-													<td data-title="Designation" class="text-center">Future Secretary</td>
+													<td data-title="Name" class="text-start">M.Suryanarayana Raju</td>
+													<td data-title="Designation" class="text-start">Future Secretary</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">V.Rama Krishnam Raju</td>
-													<td data-title="Designation" class="text-center">Joint Secretary</td>
+													<td data-title="Name" class="text-start">V.Rama Krishnam Raju</td>
+													<td data-title="Designation" class="text-start">Joint Secretary</td>
 												</tr>
 												
 												<tr>
-													<td data-title="Name" class="text-center">K.Satyanarayana Raju</td>
-													<td data-title="Designation" class="text-center">Treasurer</td>
+													<td data-title="Name" class="text-start">K.Satyanarayana Raju</td>
+													<td data-title="Designation" class="text-start">Treasurer</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">B.Ranga Raju</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">B.Ranga Raju</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">K.Srinivasa Raju</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">K.Srinivasa Raju</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">S.B.Suryanarayana Raju</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">S.B.Suryanarayana Raju</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">C.Phanindra Varma</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">C.Phanindra Varma</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">G.Padma Raju</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">G.Padma Raju</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">P.Venkatapathi Raju</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">P.Venkatapathi Raju</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-center">A.Venkata Naga Raju</td>
-													<td data-title="Designation" class="text-center">Director</td>
+													<td data-title="Name" class="text-start">A.Venkata Naga Raju</td>
+													<td data-title="Designation" class="text-start">Director</td>
 												</tr>
 
 											</tbody>

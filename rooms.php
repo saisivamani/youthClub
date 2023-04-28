@@ -165,7 +165,7 @@
             <!-- room card end -->
 
           </div>
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 economy">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 deluxe">
 
             <!-- room card -->
             <div class="knsl-room-card">
@@ -193,7 +193,7 @@
               <div class="knsl-description-frame">
               
                 
-                  <h3 class="knsl-mb-20">Deluxe room</h3>
+                  <h3 class="knsl-mb-20">Standart room</h3>
                 
                 <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Deluxe Room.  </div>
                 

@@ -1,13 +1,18 @@
 <?php
-if(isset($_POST['submit'])){
-	$pass = $_POST['pass'];
-	if($pass == '9959312345'){
-		session_start();
-		$_SESSION['pass'] = $pass;
-		header('location:index.php');
-	}
-	else echo "<script>alert('You Entered Wrong Password')</script>";
+session_start();
+if(!empty($_SESSION['pass'])){
+    header("location:index.php");
 }
+if(isset($_POST['submit'])){
+    $pass = $_POST['pass'];
+    if($pass = 'Shiva'){
+        session_start();
+        $_SESSION['pass'] = $pass;
+        header("location:index.php");
+    }
+    else echo "	alert('You have Entered Wrong Password');";
+}
+
 ?>
 
 

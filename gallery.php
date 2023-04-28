@@ -137,7 +137,7 @@
           <a href="#" data-filter="*" class="knsl-work-category knsl-current">All Photos</a>
           <a href="#" data-filter=".hotel" class="knsl-work-category">Hotel</a>
           <a href="#" data-filter=".events" class="knsl-work-category">events</a>
-          <a href="#" data-filter=".restaurant" class="knsl-work-category">Restaurant</a>
+          <a href="#" data-filter=".game" class="knsl-work-category">Game Zone</a>
         </div>
 
         <div class="knsl-masonry-grid knsl-3-col">
@@ -153,7 +153,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33  hotel">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/2.jpg" class="knsl-gallery-item">
@@ -175,7 +175,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel events">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel hotel">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/4.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -186,7 +186,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/5.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -219,7 +219,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 restaurant">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/8.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -230,7 +230,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/9.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -263,7 +263,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/12.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -318,7 +318,7 @@
          
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/17.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -329,7 +329,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
            <!-- gallery item -->
            <a data-fancybox="gallery" href="img/18.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -340,7 +340,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
         
            <!-- gallery item -->
            <a data-fancybox="gallery" href="img/19.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -362,7 +362,7 @@
 
           </div>
           
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
            <!-- gallery item -->
            <a data-fancybox="gallery" href="img/21.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -560,7 +560,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/52.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -571,7 +571,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/53.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -582,7 +582,7 @@
 
           </div>
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/54.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -594,7 +594,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 game">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/55.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -606,7 +606,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/56.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -618,7 +618,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/57.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -630,7 +630,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/58.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -642,7 +642,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/59.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -654,7 +654,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/60.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -666,6 +666,7 @@
           </div>
 
 
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/61.jpg" class="knsl-gallery-item knsl-scroll-animation">
@@ -677,7 +678,7 @@
           </div>
 
 
-          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 hotel">
+          <div class="knsl-masonry-grid-item knsl-masonry-grid-item-33 events">
 
             <!-- gallery item -->
             <a data-fancybox="gallery" href="img/62.jpg" class="knsl-gallery-item knsl-scroll-animation">

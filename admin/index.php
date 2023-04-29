@@ -155,16 +155,10 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 
 					<!-- start: page -->
-
-
-
-
-
-
 					<div class="row">
 							<div class="col">
 								<section class="card">
-									<header class="card-header" style="display:flex;flex-direction:row;gap:100px;justify-content:space-between;">
+									<header class="card-header" style="display:flex; flex-direction:row;gap:100px;justify-content:space-between;">
 									<table>
                                      <tr>
                                       <td>
@@ -172,15 +166,11 @@ $run = mysqli_query($conn,"select * from members order by id");
                                       </td>
                                         <div class="col-lg-6">
 											<div id="datatable-default_filter" class="dataTables_filter">
-												<label><input type="search" class="form-control pull-right" placeholder="Search by reg id or name..." aria-controls="datatable-default"></label>
+												<label><input type="search" id="myInput" onkeyup="searchFun()" class="form-control pull-right" placeholder="Search by reg id or name..." aria-controls="datatable-default"></label>
 											</div>
 										</div>
 									</tr>
 									</table>
-										
-
-										
-
 									</header>
 
 
@@ -188,14 +178,15 @@ $run = mysqli_query($conn,"select * from members order by id");
   
 									
 									<div class="card-body">
-										<table class="table table-no-more table-bordered table-striped mb-0">
+										<table id="myTable" class="table table-no-more table-bordered table-striped mb-0">
 										<thead>
-												<tr>
-													<th class="text-center">Name</th>
-													<th class="text-center">Address</th>
-													<th class="text-center">Membership Type</th>
-													<th class="text-center ">Reg Id</th>
-													<th class="text-center">Mobile Number</th>
+										<tr>
+													<th class="text-Start ">Reg Id</th>
+													<th class="text-Start">Name</th>
+													<th class="text-Start">Parent</th>
+													<th class="text-Start">Membership Type</th>
+													<th class="text-Start">Address</th>
+													<th class="text-Start">Mobile Number</th>
 												</tr>
 											</thead>
 											<tbody>
@@ -213,7 +204,6 @@ $run = mysqli_query($conn,"select * from members order by id");
 													<td data-title="Membership Type" class="text-center">Donor</td>
 													<td data-title="Reg Id" class="text-center ">2</td>
 													<td data-title="Mobile Number" class="text-center">9052727402</td>
-<<<<<<< HEAD
 												</tr> -->
 												<?php
 												$result = array();
@@ -245,31 +235,12 @@ $run = mysqli_query($conn,"select * from members order by id");
 												?>
 												
 												
-=======
-												</tr>												
->>>>>>> d86d09319b5fcdbc65d84c257dd4d35a18b512f5
 											</tbody>
 										</table>
 									</div>
 								</section>
 							</div>
 						</div>
-
-
-
-
-					
-
-
-
-
-
-
-
-
-
-
-
 					<!-- end: page -->
 					
 					<br>	
@@ -372,23 +343,6 @@ $run = mysqli_query($conn,"select * from members order by id");
 							</div>
 						</div>
 				</section>
-
-
-
-
-
-				
-
-
-
-
-
-
-
-
-
-
-
 					<!-- end: page -->
 				</section>
 
@@ -400,7 +354,37 @@ $run = mysqli_query($conn,"select * from members order by id");
 				</section>
 			</div>			
 		</section>
+<script>
+      
+	const searchFun = () => {
+	let filter = document.getElementById('myInput').value.toUpperCase();
+          
+  	let myTable = document.getElementById('myTable');
+  
+  	let tr = myTable.getElementsByTagName('tr');
 
+  	for(var i=0;i<tr.length;i++){
+      let td = tr[i].getElementsByTagName('td')[1];
+      let t1 = tr[i].getElementsByTagName('td')[0];
+    //   let t2 = tr[i].getElementsByTagName('td')[2];
+    //   let t3 = tr[i].getElementsByTagName('td')[3];
+       
+    if(td || t1){
+    let textvlaue = td.textContent || td.innerHTML;
+    let pid = t1.textContent || t1.innerHTML;
+    // let mob = t3.textContent || t3.innerHTML;
+    // let mid = t2.textContent || t2.innerHTML;
+    if(textvlaue.toUpperCase().indexOf(filter)>-1 || pid.toUpperCase().indexOf(filter)>-1){
+        tr[i].style.display = "";
+    }
+    else{
+        tr[i].style.display = "none";
+    }
+        }
+    }
+
+        }
+</script>
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.js"></script>

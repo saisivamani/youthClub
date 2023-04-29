@@ -5,12 +5,12 @@ if(!empty($_SESSION['pass'])){
 }
 if(isset($_POST['submit'])){
     $pass = $_POST['pass'];
-    if($pass = 'Shiva'){
+    if($pass == "1990"){
         session_start();
         $_SESSION['pass'] = $pass;
         header("location:index.php");
     }
-    else echo "	alert('You have Entered Wrong Password');";
+    else echo "<script>alert('You have Entered Wrong Password');</script>";
 }
 
 ?>

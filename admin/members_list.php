@@ -79,16 +79,8 @@ $run = mysqli_query($conn,"select * from members order by id");
 										</div>
 									</tr>
 									</table>
-										
-
-										
-
 									</header>
-
-
 									<div class="input-group">
-  
-									
 									<div class="card-body">
 										<table id="myTable" class="table table-no-more table-bordered table-striped mb-0">
 											<thead>

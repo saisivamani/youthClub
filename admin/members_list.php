@@ -23,15 +23,15 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="vendor/animate/animate.compat.css">
+		<!-- <link rel="stylesheet" href="vendor/animate/animate.compat.css"> -->
 		<link rel="stylesheet" href="vendor/font-awesome/css/all.min.css" />
 		<link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css" />
-		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" />
-		<link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
-		<link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css" />
-		<link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.theme.css" />
-		<link rel="stylesheet" href="vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
-		<link rel="stylesheet" href="vendor/morris/morris.css" />
+		<!-- <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" /> -->
+		<!-- <link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicke	r3.css" /> -->
+		<!-- <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css" /> -->
+		<!-- <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.theme.css" /> -->
+		<!-- <link rel="stylesheet" href="vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" /> -->
+		<!-- <link rel="stylesheet" href="vendor/morris/morris.css" /> -->
 
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="css/theme.css" />
@@ -163,17 +163,17 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.js"></script>
-		<script src="vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
-		<script src="vendor/popper/umd/popper.min.js"></script>
+		<!-- <script src="vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script> -->
+		<!-- <script src="vendor/popper/umd/popper.min.js"></script> -->
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-		<script src="vendor/common/common.js"></script>
-		<script src="vendor/nanoscroller/nanoscroller.js"></script>
-		<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
-		<script src="vendor/jquery-placeholder/jquery.placeholder.js"></script>
+		<!-- <script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script> -->
+		<!-- <script src="vendor/common/common.js"></script> -->
+		<!-- <script src="vendor/nanoscroller/nanoscroller.js"></script> -->
+		<!-- <script src="vendor/magnific-popup/jquery.magnific-popup.js"></script> -->
+		<!-- <script src="vendor/jquery-placeholder/jquery.placeholder.js"></script> -->
 
 		<!-- Specific Page Vendor -->
-		<script src="vendor/jquery-ui/jquery-ui.js"></script>
+		<!-- <script src="vendor/jquery-ui/jquery-ui.js"></script>
 		<script src="vendor/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
 		<script src="vendor/jquery-appear/jquery.appear.js"></script>
 		<script src="vendor/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
@@ -197,19 +197,19 @@ $run = mysqli_query($conn,"select * from members order by id");
 		<script src="vendor/jqvmap/maps/continents/jquery.vmap.australia.js"></script>
 		<script src="vendor/jqvmap/maps/continents/jquery.vmap.europe.js"></script>
 		<script src="vendor/jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
+		<script src="vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script> -->
 
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
 
 		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
+		<!-- <script src="js/custom.js"></script> -->
 
 		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
 		<!-- Examples -->
-		<script src="js/examples/examples.dashboard.js"></script>
+		<!-- <script src="js/examples/examples.dashboard.js"></script> -->
 
 	</body>
 </html>

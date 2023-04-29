@@ -149,7 +149,7 @@
             </div>
             <div class="col-lg-6">
               <div class="knsl-about-photo">
-                <img src="img/18.jpg" alt="cover">
+                <img src="img/5.jpg" alt="cover">
               </div>
             </div>
           </div>

@@ -1,6 +1,5 @@
 <?php
-$conn = new mysqli("localhost","root","","youthclub");
-// $conn = new mysqli("localhost","ycabvrm","ycabvrm#1990","youthclub");
+include "connect.php";
 $run = mysqli_query($conn,"select * from members order by id");
 ?>
 
@@ -24,25 +23,13 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
-		<link rel="stylesheet" href="vendor/animate/animate.compat.css">
 		<link rel="stylesheet" href="vendor/font-awesome/css/all.min.css" />
 		<link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css" />
-		<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css" />
-		<link rel="stylesheet" href="vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css" />
-		<link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css" />
-		<link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.theme.css" />
-		<link rel="stylesheet" href="vendor/bootstrap-multiselect/css/bootstrap-multiselect.css" />
-		<link rel="stylesheet" href="vendor/morris/morris.css" />
-
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="css/theme.css" />
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/default.css" />
-
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="css/custom.css">
-
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.js"></script>
 
@@ -80,16 +67,8 @@ $run = mysqli_query($conn,"select * from members order by id");
 										</div>
 									</tr>
 									</table>
-										
-
-										
-
 									</header>
-
-
 									<div class="input-group">
-  
-									
 									<div class="card-body">
 										<table id="myTable" class="table table-no-more table-bordered table-striped mb-0">
 											<thead>
@@ -104,41 +83,19 @@ $run = mysqli_query($conn,"select * from members order by id");
 											</thead>
 											<tbody>
 												<?php
-												$result = array();
 													if(mysqli_num_rows($run)>0){
 														while($row = mysqli_fetch_assoc($run)){
-															$result[] = $row;
-														}
-														for ($i = 0; $i < 10 && $i < count($result); $i++) {
 															echo '<tr>
-															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
-															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
-															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
-															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
-															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
-														</tr>';
-														}
-														for ($i = 10; $i <= mysqli_num_rows($run) && $i < count($result); $i++) {
-															echo '<tr style="display: none;">
-															<td data-title="Reg Id" class="text-Start">'.$result[$i]['id'].'</td>
-															<td data-title="Name" class="text-Start">'.$result[$i]['name'].'</td>
-															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
-															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
-															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+															<td data-title="Reg Id" class="text-Start">'.$row['id'].'</td>
+															<td data-title="Name" class="text-Start">'.$row['name'].'</td>
+															<td data-title="Son OFF" class="text-Start">'.$row['sonoff'].'</td>
+															<td data-title="Membership Type" class="text-Start">'.$row['mship'].'</td>
+															<td data-title="Address" class="text-Start ">'.$row['addr1'].'<br>'.$row['addr2'].'<br>'.$row['addr3'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$row['mobile'].'</td>
 														</tr>';
 														}
 													}
 												?>
-												<!-- <tr>
-													<td data-title="Name" class="text-end">Mani</td>
-													<td data-title="Address" class="text-end">Bhimavaram</td>
-													<td data-title="Membership Type" class="text-end">Donor</td>
-													<td data-title="Reg Id" class="text-end ">1</td>
-													<td data-title="Mobile Number" class="text-end">9640336946</td>
-												</tr> -->
-												
 												
 											</tbody>
 										</table>
@@ -186,53 +143,12 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.js"></script>
-		<script src="vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
-		<script src="vendor/popper/umd/popper.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<script src="vendor/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-		<script src="vendor/common/common.js"></script>
-		<script src="vendor/nanoscroller/nanoscroller.js"></script>
-		<script src="vendor/magnific-popup/jquery.magnific-popup.js"></script>
-		<script src="vendor/jquery-placeholder/jquery.placeholder.js"></script>
-
-		<!-- Specific Page Vendor -->
-		<script src="vendor/jquery-ui/jquery-ui.js"></script>
-		<script src="vendor/jqueryui-touch-punch/jquery.ui.touch-punch.js"></script>
-		<script src="vendor/jquery-appear/jquery.appear.js"></script>
-		<script src="vendor/bootstrap-multiselect/js/bootstrap-multiselect.js"></script>
-		<script src="vendor/jquery.easy-pie-chart/jquery.easypiechart.js"></script>
-		<script src="vendor/flot/jquery.flot.js"></script>
-		<script src="vendor/flot.tooltip/jquery.flot.tooltip.js"></script>
-		<script src="vendor/flot/jquery.flot.pie.js"></script>
-		<script src="vendor/flot/jquery.flot.categories.js"></script>
-		<script src="vendor/flot/jquery.flot.resize.js"></script>
-		<script src="vendor/jquery-sparkline/jquery.sparkline.js"></script>
-		<script src="vendor/raphael/raphael.js"></script>
-		<script src="vendor/morris/morris.js"></script>
-		<script src="vendor/gauge/gauge.js"></script>
-		<script src="vendor/snap.svg/snap.svg.js"></script>
-		<script src="vendor/liquid-meter/liquid.meter.js"></script>
-		<script src="vendor/jqvmap/jquery.vmap.js"></script>
-		<script src="vendor/jqvmap/data/jquery.vmap.sampledata.js"></script>
-		<script src="vendor/jqvmap/maps/jquery.vmap.world.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.africa.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.asia.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.australia.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.europe.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.north-america.js"></script>
-		<script src="vendor/jqvmap/maps/continents/jquery.vmap.south-america.js"></script>
-
 		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
 
-		<!-- Theme Custom -->
-		<script src="js/custom.js"></script>
-
-		<!-- Theme Initialization Files -->
 		<script src="js/theme.init.js"></script>
 
-		<!-- Examples -->
-		<script src="js/examples/examples.dashboard.js"></script>
 
 	</body>
 </html>

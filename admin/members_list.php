@@ -38,10 +38,6 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/default.css" />
-
-		<!-- Theme Custom CSS -->
-		<link rel="stylesheet" href="css/custom.css">
-
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.js"></script>
 

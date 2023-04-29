@@ -34,14 +34,10 @@ $run = mysqli_query($conn,"select * from members order by id");
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
 		<link rel="stylesheet" href="vendor/font-awesome/css/all.min.css" />
 		<link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css" />
-
-		<!-- Theme CSS -->
 		<link rel="stylesheet" href="css/theme.css" />
 
-		<!-- Skin CSS -->
 		<link rel="stylesheet" href="css/skins/default.css" />
 
-		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.js"></script>
 
 	</head>
@@ -314,12 +310,6 @@ $run = mysqli_query($conn,"select * from members order by id");
 				</section>
 					<!-- end: page -->
 				</section>
-
-
-
-
-
-					<!-- end: page -->
 				</section>
 			</div>			
 		</section>
@@ -358,9 +348,7 @@ $run = mysqli_query($conn,"select * from members order by id");
 		<!-- Vendor -->
 		<script src="vendor/jquery/jquery.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-		<!-- Theme Base, Components and Settings -->
 		<script src="js/theme.js"></script>
-
 		<script src="js/theme.init.js"></script>
 
 

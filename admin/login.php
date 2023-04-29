@@ -5,7 +5,7 @@ if(!empty($_SESSION['pass'])){
 }
 if(isset($_POST['submit'])){
     $pass = $_POST['pass'];
-    if($pass == "1990"){
+    if($pass == "yca1990"){
         session_start();
         $_SESSION['pass'] = $pass;
         header("location:index.php");

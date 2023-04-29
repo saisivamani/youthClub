@@ -23,7 +23,6 @@ $run = mysqli_query($conn,"select * from members order by id");
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />
-		<!-- <link rel="stylesheet" href="vendor/animate/animate.compat.css"> -->
 		<link rel="stylesheet" href="vendor/font-awesome/css/all.min.css" />
 		<link rel="stylesheet" href="vendor/boxicons/css/boxicons.min.css" />
 		<!-- Theme CSS -->

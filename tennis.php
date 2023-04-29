@@ -142,9 +142,7 @@
                 <li>Players should use only Shoes meant for Tennis especially in all the synthetic surface courts, to avoid damage to the surface of the court. The coach will decide on the suitability of the shoes.</li> 
                 <li>Dress Regulations and other Rules as prescribed by the All India Tennis Association should be strictly adhered to.</li> 
                 <li>The subscription charges, guest fees and charges for Flood lit Court will be as laid down from time to time.</li>
-                <li>Dress Regulations and other Rules as prescribed by the All India Tennis Association should be strictly adhered to.</li>
-                <li>The subscription charges, Guest Fees and charges for Floodlight Court will be as laid down from time to time.</li>
-              </div>
+                </div>
               </div>
             </div>
             <div class="col-lg-6">

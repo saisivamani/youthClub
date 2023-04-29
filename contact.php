@@ -115,7 +115,7 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">Get in Touch</h1>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Get In Touch</h1>
               <p class="knsl-mb-30">Get in touch with Youth Club Bhimavaram. We are waiting for you.</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
@@ -189,7 +189,7 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Youth Club is Waiting for You!</h2>
+              <h2 class="knsl-mb-20">Youth Club Is Waiting For You!</h2>
               <p class="knsl-mb-30">Get The Best Experience In Youth Club Bhimavaram Never Before.</p>
               <a href="about.php" class="knsl-btn knsl-btn-md">More about us</a>
             </div>

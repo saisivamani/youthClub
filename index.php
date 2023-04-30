@@ -256,7 +256,7 @@
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
                   <h2 class="knsl-mb-20">We have 30+ years <br>of Experience</h2>
-                  <p class="knsl-mb-30">Past 30+ Years We Are Running This Club In Bhimavaram.</p>
+                  <p class="knsl-mb-30">The Youth Cultural Association was established in the year 1990.The Club has around 1100 members</p>
                   <a href="about.php" class="knsl-btn knsl-btn-md">More about us</a>
                 </div>
               </div>
@@ -503,7 +503,7 @@
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
               <h2 class="knsl-mb-20">Our Best Rooms</h2>
-              <p class="knsl-mb-30">We Are Providing The Best Rooms For Our Guests. In Our Youth Club Every Guest Will Be Treated As Our Family.</p>
+              <p class="knsl-mb-30">Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .</p>
               <a href="rooms.php" class="knsl-btn knsl-btn-md">All rooms</a>
             </div>
 

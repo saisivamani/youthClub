@@ -116,7 +116,7 @@
 
             <div class="knsl-center knsl-title-frame">
               <h1 class="knsl-mb-20 knsl-h1-inner">Choose Your Room</h1>
-              <p class="knsl-mb-30">We Are Providing The Best Rooms For Our Guests. In Our Youth Club Every Guest Will Be Treated As Our Family.</p>
+              <p class="knsl-mb-30">Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
                 <li><span>Rooms</span></li>

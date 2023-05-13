@@ -137,7 +137,7 @@
         <div class="col-lg-08">
 
         </div>
-        <div class="col-10 col-md-3">
+        <div class="col-12 col-md-3">
 
           <div class="knsl-team-card">
             <div class="knsl-photo-frame">

@@ -116,8 +116,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">About our Hotel</h1>
-              <p class="knsl-mb-30">This club was established in the year 1982 with a membership of about 150 in a temporary accommodation. In the year 1985 the Club has acquired land and shifted to its own building. The Club has around 1367 members.</p>
+              <h1 class="knsl-mb-20 knsl-h1-inner">About Our Hotel</h1>
+              <p class="knsl-mb-30">This club was established in the year 1990 with a membership of about 150 in a temporary accommodation.The Club has around 1100 members.At Youth Cultural Association, we offer a range of activities and events, including All India Ranking Tennis Tournament,Skipping Tournament,Cultural Dance Performance etc... We're dedicated to providing our members with opportunities to learn, grow, and connect with others who share their interests and passions.</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.html">Home</a></li>
                 <li><span>About</span></li>
@@ -187,7 +187,7 @@
             <!-- icon box -->
             <div class="knsl-icon-box knsl-scroll-animation">
               <img src="img/features/5.svg" alt="icon" class="knsl-mb-10">
-              <h5>4 private pools</h5>
+              <h5>All facility</h5>
             </div>
             <!-- icon box end -->
 

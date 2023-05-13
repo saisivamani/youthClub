@@ -115,8 +115,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">Choose your Room</h1>
-              <p class="knsl-mb-30">We Are Providing The Best Rooms For Our Guests. In Our Youth Club Every Guest Will Be Treated As Our Family.</p>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Choose Your Room</h1>
+              <p class="knsl-mb-30">Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
                 <li><span>Rooms</span></li>
@@ -137,8 +137,8 @@
         <div class="knsl-filter knsl-mb-60">
           <a href="#" data-filter="*" class="knsl-work-category knsl-current">All Rooms</a>
           <a href="#" data-filter=".suite" class="knsl-work-category">Suite Room</a>
-          <a href="#" data-filter=".standart" class="knsl-work-category">Standart Room</a>
           <a href="#" data-filter=".deluxe" class="knsl-work-category">Deluxe Room</a>
+          <a href="#" data-filter=".standart" class="knsl-work-category">Standart Room</a>
         </div>
 
         <div class="knsl-masonry-grid knsl-3-col">
@@ -195,7 +195,7 @@
                 
                   <h3 class="knsl-mb-20">Standart room</h3>
                 
-                <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Deluxe Room.  </div>
+                <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Standart Room.  </div>
                 
               </div>
             </div>

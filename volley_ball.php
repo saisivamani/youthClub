@@ -139,8 +139,8 @@
             <div class="col-lg-6">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                <li>06.00am to 09.00pm and 04.00pm to 08.00pm.</li>
-                <li>Members are required to enroll themselves as individual monthly subscribers for shuttle Subscription per head will be as fixed by the committee from time to time.</li>
+                <li>06.00am to 09.00am and 04.00pm to 08.00pm.</li>
+                <li>Members are required to enroll themselves as individual monthly subscribers for Subscription per head will be as fixed by the committee from time to time.</li>
                 <li>Foot wear with non marking soles only will be allowed</li>  
               </div>
               </div>

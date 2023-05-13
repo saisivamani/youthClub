@@ -256,7 +256,7 @@
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
                   <h2 class="knsl-mb-20">We have 30+ years <br>of Experience</h2>
-                  <p class="knsl-mb-30">Past 30+ Years We Are Running This Club In Bhimavaram.</p>
+                  <p class="knsl-mb-30">The Youth Cultural Association was established in the year 1990.The Club has around 1100 members</p>
                   <a href="about.php" class="knsl-btn knsl-btn-md">More about us</a>
                 </div>
               </div>
@@ -273,7 +273,7 @@
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
                   <h2 class="knsl-mb-20">Start your Amazing Adventure!</h2>
-                  <p class="knsl-mb-30">Plan A Adventurious Trip In Godavari Districts At Youth Club Bhimavaram</p>
+                  <p class="knsl-mb-30">Plan A Adventurous Trip In Godavari Districts At Youth Club Bhimavaram</p>
                   <a href="rooms.php" class="knsl-btn knsl-btn-md">Choose a room</a>
                 </div>
               </div>
@@ -337,7 +337,7 @@
                   <div class="knsl-image-frame">
                     <a data-fancybox="gallery" href="img/36.jpg">
                       <img src="img/36.jpg" alt="about">
-                      <div class="knsl-badge">Riception</div>
+                      <div class="knsl-badge">Reception</div>
                       <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
                     </a>
                   </div>
@@ -503,7 +503,7 @@
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
               <h2 class="knsl-mb-20">Our Best Rooms</h2>
-              <p class="knsl-mb-30">We Are Providing The Best Rooms For Our Guests. In Our Youth Club Every Guest Will Be Treated As Our Family.</p>
+              <p class="knsl-mb-30">Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .</p>
               <a href="rooms.php" class="knsl-btn knsl-btn-md">All rooms</a>
             </div>
 
@@ -523,7 +523,7 @@
                       <a href="rooms.php">
                         <h3 class="knsl-mb-20">Deluxe room</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Delux Room</div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Deluxe Room</div>
                       
                     </div>
                   </div>

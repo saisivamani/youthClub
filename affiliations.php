@@ -144,31 +144,31 @@
 <tbody>
 <tr>
 <th scope="col" width="7%" height="41">
-<h3><strong>SNO</strong></h3>
+<h3 style="text-align: center;"><strong>SNO</strong></h3>
 </th>
 <th scope="col" width="28%">
-<h3><strong>CLUB NAME &amp; ADDRESS</strong></h3>
+<h3 style="text-align: center;"><strong>CLUB NAME &amp; ADDRESS</strong></h3>
 </th>
 <th scope="col" width="29%">
-<h3><strong>PHONE</strong></h3>
+<h3 style="text-align: center;"><strong>PHONE</strong></h3>
 </th>
 <th colspan="2" scope="col" width="36%">
-<h3><strong>EMAIL / WEBSITE</strong></h3>
+<h3 style="text-align: center;"><strong>EMAIL / WEBSITE</strong></h3>
 </th>
 </tr>
 <tr>
 <th scope="col" height="170">
-<h6>1</h6>
+<h6 align="center">1</h6>
 </th>
 <th scope="col">
 <table cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
 <td rowspan="6" width="237" height="102">
-<h6 style="text-align: left;">Pydah Venkata Chalapathy Town Hall</h6>
-<h6 style="text-align: left;">13-1-30,</h6>
-<h6 style="text-align: left;">Main Road,</h6>
-<h6 style="text-align: left;">Kakinada</h6>
+<h6 style="text-align: center;">Pydah Venkata Chalapathy Town Hall</h6>
+<h6 style="text-align: center;">13-1-30,</h6>
+<h6 style="text-align: center;">Main Road,</h6>
+<h6 style="text-align: center;">Kakinada</h6>
 </td>
 </tr>
 </tbody>
@@ -178,11 +178,11 @@
 <table cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
-<td width="40" height="17">
-<h6 align="left">Tel :</h6>
+<td width="70" height="17" >
+<h6 align="center">Tel :</h6>
 </td>
-<td width="302">
-<h6 style="text-align: left;">0884-2373165</h6>
+<td width="100">
+<h6 style="text-align: center;">0884-2373165</h6>
 </td>
 </tr>
 </tbody>
@@ -193,18 +193,18 @@
 <tbody>
 <tr>
 <td width="40" height="17">
-<h6 style="text-align: left;">Email :</h6>
+<h6 style="text-align: center;">Email :</h6>
 </td>
-<td width="302">
-<h6 style="text-align: left;">-</h6>
+<td width="70">
+<h6>-</h6>
 </td>
 </tr>
 <tr>
-<td width="40" height="17">
-<h6 style="text-align: left;">Website :</h6>
+<td>
+<h6 style="text-align: center;">Website :</h6>
 </td>
-<td width="302">
-<h6 style="text-align: left;"><a href="" rel="noopener">-</a></h6>
+<td width="70">
+<h6><a href="" rel="noopener">-</a></h6>
 </td>
 </tr>
 </tbody>
@@ -213,16 +213,16 @@
 </tr>
 <tr>
 <th scope="col" height="170">
-<h6>2</h6>
+<h6 align="center">2</h6>
 </th>
 <th scope="col">
 <table cellspacing="0" cellpadding="0">
 <tbody>
 <tr>
 <td rowspan="6" width="237" height="102">
-<h6 style="text-align: left;">Film Nagar Cultural Center</h6>
-<h6 style="text-align: left;">Road No:6,Behind The RamaNaidu Building,</h6>
-<h6 style="text-align: left;">Film Nagar,<br />
+<h6 style="text-align: center;">Film Nagar Cultural Center</h6>
+<h6 style="text-align: center;">Road No:6,Behind The RamaNaidu Building,</h6>
+<h6 style="text-align: center;">Film Nagar,<br />
 HYDERABAD &#8211; 5000096<br /></h6>
 </td>
 </tr>
@@ -230,36 +230,43 @@ HYDERABAD &#8211; 5000096<br /></h6>
 </table>
 </th>
 <th scope="col">
-<table cellspacing="0" cellpadding="0">
+<table cellspacing="10" cellpadding="0">
 <tbody>
 <tr>
-<td width="40" height="17">
-<h6>Tel :</h6>
+<td width="70" height="17">
+<h6 align="center">Tel :</h6>
 </td>
 <td width="302">
-<h6 style="text-align: left;">+91 (40) 23 636 100</h6>
+<h6>+91 (40) 23 636 100</h6>
 </td>
 </tr>
 </tbody>
 </table>
 </th>
 <th colspan="2" scope="col">
-<table style="height: 59px;" width="455" cellspacing="0" cellpadding="0">
+<table style="height: 59px;" width="455" cellspacing="10" cellpadding="0">
+
+
+
+
+
+
+
 <tbody>
 <tr>
 <td width="40" height="17">
-<h6 style="text-align: left;">Email :</h6>
+<h6 style="text-align: center;">Email :</h6>
 </td>
-<td width="302">
-<h6 style="text-align: left;">-</h6>
+<td>
+<h6>-</h6>
 </td>
 </tr>
 <tr>
-<td width="40" height="17">
-<h6 style="text-align: left;">Website :</h6>
+<td>
+<h6 style="text-align: center;">Website :</h6>
 </td>
-<td width="302">
-<h6 style="text-align: left;"><a href="https://www.fncc.in/" rel="noopener">fncc.in</a></h6>
+<td width="70">
+<h6><a href="https://www.fncc.in/" rel="noopener">fncc.in</a></h6>
 </td>
 </tr>
 </tbody>
@@ -269,6 +276,7 @@ HYDERABAD &#8211; 5000096<br /></h6>
 
 </table>
 </th>
+
             </div>
             </div>
           </div>

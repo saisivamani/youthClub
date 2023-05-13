@@ -114,8 +114,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">Welcome to our Restaurant</h1>
-              <p class="knsl-mb-30">Youth Club Is Providing Good Food Also. In Youth Club A Restaurant Is Also There</p>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Welcome To Our Restaurant</h1>
+              <p class="knsl-mb-30">Welcome to Youth Club Restaurant, where we pride ourselves on serving delicious food in a warm and inviting atmosphere. Our restaurant was founded in 1990. We created a place where people could gather to enjoy exceptional food in a casual, relaxed setting.</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
                 <li><span>Restaurant</span></li>
@@ -263,7 +263,7 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Restaurant photo Gallery</h2>
+              <h2 class="knsl-mb-20">Restaurant Photo Gallery</h2>
               <p class="knsl-mb-30">Our Restaurant Is Maintained With Well Experienced Staff</p>
             </div>
 

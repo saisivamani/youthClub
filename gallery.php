@@ -136,7 +136,7 @@
         <div class="knsl-filter knsl-mb-60">
           <a href="#" data-filter="*" class="knsl-work-category knsl-current">All Photos</a>
           <a href="#" data-filter=".hotel" class="knsl-work-category">Hotel</a>
-          <a href="#" data-filter=".events" class="knsl-work-category">events</a>
+          <a href="#" data-filter=".events" class="knsl-work-category">Events</a>
           <a href="#" data-filter=".game" class="knsl-work-category">Game Zone</a>
         </div>
 

@@ -183,7 +183,7 @@ $run = mysqli_query($conn,"select * from members order by id");
 															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
 															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
 															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'<br>'.$result[$i]['mobile2'].'</td>
 														</tr>';
 														}
 														for ($i = 10; $i <= mysqli_num_rows($run) && $i < count($result); $i++) {
@@ -193,7 +193,7 @@ $run = mysqli_query($conn,"select * from members order by id");
 															<td data-title="Son OFF" class="text-Start">'.$result[$i]['sonoff'].'</td>
 															<td data-title="Membership Type" class="text-Start">'.$result[$i]['mship'].'</td>
 															<td data-title="Address" class="text-Start ">'.$result[$i]['addr1'].'<br>'.$result[$i]['addr2'].'<br>'.$result[$i]['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'</td>
+															<td data-title="Mobile Number" class="text-Start">'.$result[$i]['mobile'].'<br>'.$result[$i]['mobile2'].'</td>
 														</tr>';
 														}
 													}
@@ -241,7 +241,7 @@ $run = mysqli_query($conn,"select * from members order by id");
 												</tr>
 
 												<tr>
-													<td data-title="Name" class="text-start">P.V.Venkata Srinivasa Raju</td>
+													<td data-title="Name" class="text-start">P.V.Venkata Srinivasa Raju(Subhash)</td>
 													<td data-title="Designation" class="text-start">Vice President</td>
 												</tr>
 

@@ -1,7 +1,7 @@
 <header class="header">
 				<div class="logo-container">
 					<a href="#" class="logo">
-						<img src="img/logo.png" width="70" height="60" alt="YCA" />
+						<img src="img/logo.png" width="50" height="50" alt="YCA" />
 					</a>
 
 					<div class="d-md-none toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
@@ -72,13 +72,22 @@
                     </a>
                 </li>
 
+				
+				<li>
+					<a class="nav-link"href="message.php">
+						<i class="bx bx-message" aria-hidden="true"></i>
+						<span>Message</span>
+					</a>
+				</li>
 
-                <li>
+				<li>
                     <a class="nav-link" href="logout.php">
                         <i class="bx bx-power-off" aria-hidden="true"></i>
                         <span>Log Out</span>
                     </a>
-                </li>				                        
+                </li>
+
+				
              </ul>
             </div>
         </div>

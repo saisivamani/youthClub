@@ -86,6 +86,15 @@
                 </div>
             </div>
             <!-- end: page -->
+
+            <div class="contact-form-success alert alert-success d-none mt-4" id="successAlert">
+                <strong>Success!</strong> Your message has been sent.
+            </div>
+
+            <div class="contact-form-error alert alert-danger d-none mt-4" id="errorAlert">
+                <strong>Error!</strong> There was an error sending your message.
+                <span class="mail-error-message text-1 d-block"></span>
+            </div>
         </section>
         <!-- Message Section end -->
     </section>
@@ -132,27 +141,16 @@
             // Implement your logic to send messages to the provided numbers
             // You can use a third-party SMS API or any other method you prefer
 
-            var checkboxValues = [];
-            $("input[type='checkbox']:checked").each(function() {
-                checkboxValues.push($(this).val());
-            });
+            // Simulating success and error scenarios for demonstration purposes
+            var success = true; // Set to true for success, false for error
 
-            var alertMessage = '';
-
-            if (checkboxValues.includes("team")) {
-                alertMessage += "Message was successfully sent to the team!\n";
-            }
-
-            if (checkboxValues.includes("body")) {
-                alertMessage += "Message was successfully sent to the body!\n";
-            }
-
-            if (checkboxValues.includes("members")) {
-                alertMessage += "Message was successfully sent to the members!\n";
-            }
-
-            if (alertMessage !== '') {
-                alert(alertMessage);
+            if (success) {
+                $('#successAlert').removeClass('d-none');
+                $('#errorAlert').addClass('d-none');
+            } else {
+                $('#successAlert').addClass('d-none');
+                $('#errorAlert').removeClass('d-none');
+                $('.mail-error-message').text('An error occurred while sending the message.');
             }
         }
     });

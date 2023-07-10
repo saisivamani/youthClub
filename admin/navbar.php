@@ -33,8 +33,32 @@
 							<ul class="list-unstyled mb-2">
 								<li class="divider"></li>
 								<li>
-									<a role="menuitem" tabindex="-1" href="logout.php"><i class="bx bx-power-off"></i> Logout</a>
-								</li>
+                    <a class="nav-link" href="index.php">
+                        <i class="bx bx-home-alt" aria-hidden="true"></i>
+                        <span>Home</span>
+                    </a>                        
+                </li>
+                <li>
+                    <a class="nav-link" href="members_list.php">
+                        <i class="bx bx-list-ol" aria-hidden="true"></i>
+                        <span>Members List</span>
+                    </a>
+                </li>
+
+				
+				<li>
+					<a class="nav-link"href="message.php">
+						<i class="bx bx-message" aria-hidden="true"></i>
+						<span>Message</span>
+					</a>
+				</li>
+
+				<li>
+                    <a class="nav-link" href="logout.php">
+                        <i class="bx bx-power-off" aria-hidden="true"></i>
+                        <span>Log Out</span>
+                    </a>
+                </li>
 							</ul>
 						</div>
 					</div>
@@ -51,7 +75,7 @@
     </div>
     <div class="sidebar-toggle d-none d-md-block" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
         <i class="fas fa-bars" aria-label="Toggle sidebar"></i>
-    </div>
+    </div> 
 </div>
 
 <div class="nano">

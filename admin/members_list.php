@@ -32,6 +32,18 @@ $run = mysqli_query($conn,"select * from members order by id");
 		<link rel="stylesheet" href="css/skins/default.css" />
 		<!-- Head Libs -->
 		<script src="vendor/modernizr/modernizr.js"></script>
+		<!--Sned Message Button-->
+          <style>
+            .send-message-btn {
+             background-color: #3498db; 
+             color: #fff; 
+             border-radius: 5px; 
+             padding: 5px 10px; 
+			 font-size: 14px;
+             cursor: pointer; 
+            }
+        </style>
+
 
 	</head>
 	<body>
@@ -82,21 +94,20 @@ $run = mysqli_query($conn,"select * from members order by id");
 												</tr>
 											</thead>
 											<tbody>
-												<?php
-													if(mysqli_num_rows($run)>0){
-														while($row = mysqli_fetch_assoc($run)){
-															echo '<tr>
-															<td data-title="Reg Id" class="text-Start">'.$row['id'].'</td>
-															<td data-title="Name" class="text-Start">'.$row['name'].'</td>
-															<td data-title="Son OFF" class="text-Start">'.$row['sonoff'].'</td>
-															<td data-title="Membership Type" class="text-Start">'.$row['mship'].'</td>
-															<td data-title="Address" class="text-Start ">'.$row['addr1'].'<br>'.$row['addr2'].'<br>'.$row['addr3'].'</td>
-															<td data-title="Mobile Number" class="text-Start">'.$row['mobile'].'</td>
-														</tr>';
-														}
-													}
-												?>
-												
+											<?php
+                                            if (mysqli_num_rows($run) > 0) {
+                                            while ($row = mysqli_fetch_assoc($run)) {
+                                            echo '<tr>
+                                             <td data-title="Reg Id" class="text-Start">' . $row['id'] . '</td>
+                                             <td data-title="Name" class="text-Start">' . $row['name'] . '</td>
+                                             <td data-title="Son OFF" class="text-Start">' . $row['sonoff'] . '</td>
+                                             <td data-title="Membership Type" class="text-Start">' . $row['mship'] . '</td>
+                                             <td data-title="Address" class="text-Start ">' . $row['addr1'] . '<br>' . $row['addr2'] . '<br>' . $row['addr3'] . '</td>
+                                             <td data-title="Mobile Number" class="text-Start">' . $row['mobile'] . '</td>
+                                             </tr>';
+                                                }
+                                               }
+                                             ?>												
 											</tbody>
 										</table>
 									</div>
@@ -148,7 +159,8 @@ $run = mysqli_query($conn,"select * from members order by id");
 		<script src="js/theme.js"></script>
 
 		<script src="js/theme.init.js"></script>
-
+		<!--Send message JS-->
+        <script src="send_message.js"></script>
 
 	</body>
 </html>

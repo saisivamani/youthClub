@@ -22,6 +22,8 @@
   <link rel="stylesheet" href="css/plugins/mapbox-style.css">
   <!-- kinsley css -->
   <link rel="stylesheet" href="css/style.css">
+  <!-- Whats App Button Style sheet-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- page title -->
   <title>Youth Club</title>
 </head>
@@ -97,6 +99,7 @@
         </div>
         <!-- menu end -->
         <!-- action button -->
+        <!-- <i class="fa fa-whatsapp" style="font-size:48px;color:green"></i> -->
         <a href="https://wa.me/+917207080232?" class="knsl-btn"><img src="img/icons/bookmark.svg" alt="icon">Contact</a>
         <!-- action button end -->
         </div>
@@ -116,7 +119,7 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">About Our Hotel</h1>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Our Story</h1>
               <p class="knsl-mb-30">This club was established in the year 1990 with a membership of about 150 in a temporary accommodation.The Club has around 1100 members.At Youth Cultural Association, we offer a range of activities and events, including All India Ranking Tennis Tournament,Skipping Tournament,Cultural Dance Performance etc... We're dedicated to providing our members with opportunities to learn, grow, and connect with others who share their interests and passions.</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.html">Home</a></li>
@@ -227,36 +230,8 @@
     </section>
     <!-- features end -->
 
-    <!-- video -->
-    <section class="knsl-p-0-100">
-
-      <div class="container">
-
-        <div class="knsl-about-card">
-          <div class="row g-0">
-            <div class="col-lg-6">
-              <div class="knsl-about-text">
-                <div class="knsl-title-frame">
-                  <h2 class="knsl-mb-20">Start your Amazing Adventure!</h2>
-                  <p class="knsl-mb-30">Plan A Adventurious Trip In Godavari Districts At Youth Club Bhimavaram</p>
-                    <a href="https://www.youtube.com/watch?v=3pN8bqHeA4I&t=3s" target="_blank" class="knsl-btn"><img src="img/icons/play.svg" alt="icon">Watch video</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="knsl-video-frame">
-                <img src="img/14.jpg" alt="cover">
-                <a data-fancybox href="https://www.youtube.com/watch?v=3pN8bqHeA4I&t=3s" class="knsl-play-btn">
-                  <i class="fas fa-play"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-    <!-- video end -->
+   
+    
 
     <!-- services -->
     <section class="knsl-p-0-80">

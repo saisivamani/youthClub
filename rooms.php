@@ -115,8 +115,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">Choose Your Room</h1>
-              <p class="knsl-mb-30">Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .</p>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Explore Our Vibrant Cultural Spaces</h1>
+              <p class="knsl-mb-30">Embark on a Journey of Art, Music, Dance, and More: Discover Our Cultural Rooms Today.</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
                 <li><span>Rooms</span></li>
@@ -158,7 +158,7 @@
               
                   <h3 class="knsl-mb-20">Suite room</h3>
                 
-                <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Suite Room.</div>
+                <div class="knsl-text-light knsl-text-sm knsl-mb-20">Opulence, charm, and community unite for an amenity-rich, delightful experience.</div>
                 
               </div>
             </div>
@@ -176,7 +176,7 @@
                
                   <h3 class="knsl-mb-20">Deluxe Room</h3>
                 
-                <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Deluxe Room.</div>
+                <div class="knsl-text-light knsl-text-sm knsl-mb-20">Lavish comfort, cultural charm, and unforgettable experiences await.</div>
 
               </div>
             </div>
@@ -195,7 +195,7 @@
                 
                   <h3 class="knsl-mb-20">Standart room</h3>
                 
-                <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Standart Room.  </div>
+                <div class="knsl-text-light knsl-text-sm knsl-mb-20">Affordable comfort, welcoming ambiance, cultural adventures in our vibrant community.</div>
                 
               </div>
             </div>

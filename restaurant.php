@@ -114,8 +114,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame">
-              <h1 class="knsl-mb-20 knsl-h1-inner">Welcome To Our Restaurant</h1>
-              <p class="knsl-mb-30">Welcome to Youth Club Restaurant, where we pride ourselves on serving delicious food in a warm and inviting atmosphere. Our restaurant was founded in 1990. We created a place where people could gather to enjoy exceptional food in a casual, relaxed setting.</p>
+              <h1 class="knsl-mb-20 knsl-h1-inner">Welcome to Our Dining Space</h1>
+              <p class="knsl-mb-30">Welcome to Youth Club Restaurant, where we pride ourselves on serving delicious food in a warm and inviting atmosphere. Our restaurant was founded in 1990. We created a place where people could gather to enjoy exceptional food in a casual, relaxed setting.A Cultural Legacy Since 1990: Savor Timeless Traditions and Iconic Culinary Delights at Our Restaurant, a Proud Part of the Youth Cultural Association</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
                 <li><span>Restaurant</span></li>
@@ -137,8 +137,8 @@
             <div class="col-lg-6">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                  <h2 class="knsl-mb-20">We invite you to visit our restaurant</h2>
-                  <p class="knsl-mb-30">Youth Club provides a most economical value of liquor and food to our members in very cheap compared to other places. You can have ample of food in limited budget.</p>
+                  <h2 class="knsl-mb-20">Step Inside Our Culinary Haven</h2>
+                  <p class="knsl-mb-30">where cultural flavors and artistry blend seamlessly, inviting you to a gastronomic journey of diverse cuisines from around the world. Embrace the warmth of traditions, the vibrancy of aromas, and the delight of flavors as you embark on a remarkable dining experience that celebrates the essence of our Youth Cultural Association.</p>
                 </div>
               </div>
             </div>
@@ -163,8 +163,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Our luxurious menu</h2>
-              <p class="knsl-mb-30">We Offer Many Special Food Items For You Eat And Enjoy In Youth Club</p>
+              <h2 class="knsl-mb-20">Savory Offerings</h2>
+              <p class="knsl-mb-30">A Delectable Array of Savory Offerings from Diverse Culinary Traditions</p>
             </div>
 
           </div>
@@ -254,160 +254,8 @@
     </section>
     <!-- menu end -->
 
-    <!-- gallery -->
-    <section class="knsl-transition-bottom">
-      <img src="img/palm.svg" class="knsl-deco-right" alt="palm">
-      <img src="img/palm.svg" class="knsl-deco-left" alt="palm">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-12">
-
-            <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Restaurant Photo Gallery</h2>
-              <p class="knsl-mb-30">Our Restaurant Is Maintained With Well Experienced Staff</p>
-            </div>
-
-          </div>
-          <div class="col-lg-12">
-
-            <!-- slider -->
-            <div class="swiper-container knsl-about-slider knsl-scroll-animation">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide">
-
-                  <!-- gallery item -->
-                  <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/1.jpg">
-                      <img src="img/1.jpg" alt="about">
-                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                    </a>
-                  </div>
-                  <!-- gallery item end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- gallery item -->
-                  <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/36.jpg">
-                      <img src="img/36.jpg" alt="about">
-                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                    </a>
-                  </div>
-                  <!-- gallery item end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- gallery item -->
-                  <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/3.jpg">
-                      <img src="img/3.jpg" alt="about">
-                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                    </a>
-                  </div>
-                  <!-- gallery item end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- gallery item -->
-                  <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/4.jpg">
-                      <img src="img/4.jpg" alt="about">
-                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                    </a>
-                  </div>
-                  <!-- gallery item end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- gallery item -->
-                  <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/5.jpg">
-                      <img src="img/5.jpg" alt="about">
-                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                    </a>
-                  </div>
-                  <!-- gallery item end -->
-
-                </div>
-                <div class="swiper-slide">
-
-                  <!-- gallery item -->
-                  <div class="knsl-image-frame">
-                    <a data-fancybox="gallery" href="img/6.jpg">
-                      <img src="img/6.jpg" alt="about">
-                      <span class="knsl-zoom"><i class="fas fa-search-plus"></i></span>
-                    </a>
-                  </div>
-                  <!-- gallery item end -->
-
-                </div>
-              </div>
-
-              <!-- slider navigation -->
-              <div class="knsl-slider-nav-panel">
-                <!-- pagination -->
-                <div class="knsl-about-slider-1-pagination"></div>
-                <!-- navigation -->
-                <div class="knsl-about-slider-nav">
-                  <div class="knsl-about-slider-1-prev"><i class="fas fa-arrow-left"></i></div>
-                  <div class="knsl-about-slider-1-next"><i class="fas fa-arrow-right"></i></div>
-                </div>
-                <!-- navigation end -->
-              </div>
-              <!-- slider navigation end -->
-
-            </div>
-            <!-- slider end -->
-
-          </div>
-
-        </div>
-      </div>
-
-    </section>
-    <!-- gallery end -->
-
-    <!-- counters -->
-    <section class="knsl-p-100-100">
-      <div class="container">
-
-      </div>
-    </section>
-    <!-- counters end -->
-
-    <!-- video -->
-    <section class="knsl-p-0-100">
-
-      <div class="container">
-
-        <div class="knsl-about-card">
-          <div class="row g-0">
-            <div class="col-lg-6">
-              <div class="knsl-about-text">
-                <div class="knsl-title-frame">
-                  <h2 class="knsl-mb-20">We are not just delicious. <br>We are perfect!</h2>
-                  <p class="knsl-mb-30">We Are Focusing On Taste Of The Food As Well As The Health Of The Guest. We Are Trying To Make Our Food 100% Naturally.</p>
-                  <a href="https://youtu.be/5xbW4GyiVD0" target="_blank" class="knsl-btn"><img src="img/icons/play.svg" alt="icon">Watch video</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="knsl-video-frame">
-                <img src="img/48.jpg" alt="cover">
-                <a data-fancybox href="https://youtu.be/5xbW4GyiVD0" class="knsl-play-btn">
-                  <i class="fas fa-play"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
+   
+    
     <!-- video end -->
 
     <!-- Footer Start -->

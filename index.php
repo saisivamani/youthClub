@@ -255,8 +255,8 @@
             <div class="col-lg-6 align-self-center">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                  <h2 class="knsl-mb-20">We have 30+ years <br>of Experience</h2>
-                  <p class="knsl-mb-30">The Youth Cultural Association was established in the year 1990.The Club has around 1100 members</p>
+                  <h2 class="knsl-mb-20">Empowering Youth, Celebrating Culture</h2>
+                  <p class="knsl-mb-30">Welcome to the Youth Cultural Association, where we empower young minds and celebrate the richness of our cultural heritage.</p>
                   <a href="about.php" class="knsl-btn knsl-btn-md">More about us</a>
                 </div>
               </div>
@@ -272,8 +272,8 @@
             <div class="col-lg-6 align-self-center">
               <div class="knsl-about-text">
                 <div class="knsl-title-frame">
-                  <h2 class="knsl-mb-20">Start your Amazing Adventure!</h2>
-                  <p class="knsl-mb-30">Plan A Adventurous Trip In Godavari Districts At Youth Club Bhimavaram</p>
+                  <h2 class="knsl-mb-20">A Legacy of Togetherness</h2>
+                  <p class="knsl-mb-30">Since 1990, we've been fostering a sense of togetherness among our 1100+ members, creating a close-knit community that learns and grows together.</p>
                   <a href="rooms.php" class="knsl-btn knsl-btn-md">Choose a room</a>
                 </div>
               </div>
@@ -294,8 +294,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Youth Club is Waiting for You!</h2>
-              <p class="knsl-mb-30">Get The Best Experience In Youth Club Bhimavaram Never Before</p>
+              <h2 class="knsl-mb-20">Culture, Community, and Comfort – Our Club Spaces</h2>
+              <p class="knsl-mb-30">Where connections are forged, passions are nurtured, and memories are made.</p>
               <a href="about.php" class="knsl-btn knsl-btn-md">More about us</a>
             </div>
 
@@ -502,8 +502,8 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Our Best Rooms</h2>
-              <p class="knsl-mb-30">Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .Welcome to Youth Club Rooms, where we providing comfortable accommodations for our members .</p>
+              <h2 class="knsl-mb-20">Explore the Versatile Rooms at Youth Cultural Association</h2>
+              <p class="knsl-mb-30">Spaces designed to inspire, create, and connect with limitless possibilities. From dynamic activity rooms that foster talent and teamwork to cozy meeting spaces that encourage camaraderie and collaboration, our diverse range of rooms cater to every facet of your cultural journey. Step into a world of growth and enrichment as you immerse yourself in our well-equipped facilities, where friendships are forged, talents blossom, and the vibrant spirit of our youth community thrives.</p>
               <a href="rooms.php" class="knsl-btn knsl-btn-md">All rooms</a>
             </div>
 
@@ -521,9 +521,9 @@
                     <div class="knsl-description-frame">
                       
                       <a href="rooms.php">
-                        <h3 class="knsl-mb-20">Deluxe room</h3>
+                        <h3 class="knsl-mb-20">Deluxe Rooms</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Deluxe Room</div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Lavish comfort, cultural charm, and unforgettable experiences await.</div>
                       
                     </div>
                   </div>
@@ -543,7 +543,7 @@
                       <a href="rooms.php">
                         <h3 class="knsl-mb-20">Standart Room</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Standart Room</div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Affordable comfort, welcoming ambiance, cultural adventures in our vibrant community.</div>
                       <div class="knsl-card-bottom">
                       </div>
                     </div>
@@ -563,7 +563,7 @@
                       <a href="rooms.php">
                         <h3 class="knsl-mb-20">Suite Room</h3>
                       </a>
-                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">We Are Providing A Suite Room</div>
+                      <div class="knsl-text-light knsl-text-sm knsl-mb-20">Opulence, charm, and community unite for an amenity-rich, delightful experience.</div>
                       <div class="knsl-card-bottom"> 
                       </div>
                     </div>
@@ -599,9 +599,9 @@
           <div class="col-lg-12">
 
             <div class="knsl-center knsl-title-frame knsl-scroll-animation knsl-mb-100">
-              <h2 class="knsl-mb-20">Around The Youth Club</h2>
-              <p class="knsl-mb-30">Around The Youth Club We Have A Lot Of Things.</p>
-              <a href="about.php" class="knsl-btn knsl-btn-md">Services</a>
+              <h2 class="knsl-mb-20">Cultural Haven: Unveiling Our Club Facilities</h2>
+              <p class="knsl-mb-30">Where Passions Flourish, and Talents Unfold: Experience the Essence of Our Dynamic Facilities.</p>
+              <a href="about.php" class="knsl-btn knsl-btn-md">More</a>
             </div>
           </div>
           <div class="col-lg-4">
@@ -613,7 +613,7 @@
               </div>
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Lounge bar</h3>
-                <p>Officially Licensed Bar</p>
+                <p>Sip, Savor, and Socialize: Unwind in Elegance at Our Lounge Bar</p>
                 <a href="about.php" class="knsl-btn">Read more</a>
               </div>
             </div>
@@ -629,7 +629,7 @@
               </div>
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Conference Hall</h3>
-                <p>Hall For Official Meetings.</p>
+                <p>Empowering Gatherings, Inspiring Conferences: Unite Minds in Our Hall.</p>
                 <a href="about.php" class="knsl-btn">Read more</a>
               </div>
             </div>
@@ -645,7 +645,7 @@
               </div>
               <div class="knsl-card-description">
                 <h3 class="knsl-mb-10">Restaurant</h3>
-                <p>Best Restaurant Best Food</p>
+                <p>Savor Cultural Delights: Indulge in Culinary Excellence at Our Restaurant.</p>
                 <a href="about.php" class="knsl-btn">Read more</a>
               </div>
             </div>

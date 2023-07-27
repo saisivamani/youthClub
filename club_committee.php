@@ -117,6 +117,7 @@
 
             <div class="knsl-center knsl-title-frame">
               <h1 class="knsl-mb-20 knsl-h1-inner">Club Committee</h1>
+              <p>Empowered Leadership, Empowering the Youth: Our Club's Pillars of Success.</p>
               <ul class="knsl-breadcrumbs">
                 <li><a href="index.php">Home</a></li>
                 <li><span>Club Committee</span></li>
